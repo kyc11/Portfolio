@@ -1,0 +1,21 @@
+img { 
+    width : 7%; 
+    margin-left : 20%;
+    margin-top: 1.4%;
+}
+
+.search_box {
+    width: 360px;
+    border: 1px double #f1f0f5;
+    padding: 22px;
+    border-radius: 26px;
+    background-color: #f1f0f5;
+    margin-left: 550px;
+    margin-top: -38px;
+}
+
+.search_1 {
+    width: 300px;
+    margin-left: 860px;
+    margin-top: -38px;
+}
