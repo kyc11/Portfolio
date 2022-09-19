@@ -6,28 +6,41 @@
 
 .top{
     /* position: relative; */
-    height: 50px;
+    height: 80px;
+    position: relative;
 }
 
 .cont{
-    height: 500px;
+    height: 5000px;
 }
 
 .info{
-    height: 50px;
+    height: 500px;
 }
 
 .m_logo{
-    left: 0;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: url(../img/무신사\ 로고-1.png) no-repeat center/cover ;
+    position: absolute;
+    left: 232px;
+    top: 23px;
+    width: 127px;
+    height: 30px;
+    background: url(../img/무신사\ 로고\ 2.jpg) no-repeat center/cover;
 }
 
 .human{
-    left: 10px;
-    width: 25px;
-    height: 25px;
+    position: absolute;
+    right: 410px;
+    top: 25px;
+    width: 30px;
+    height: 30px;
     background: url(../img/사람.png) no-repeat center/cover;
+}
+
+.lock{
+    position: absolute;
+    right: 355px;
+    top: 25px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/자물쇠.png) no-repeat center/cover;
 }
