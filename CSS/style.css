@@ -29,7 +29,7 @@
 
 .human{
     position: absolute;
-    right: 410px;
+    right: 415px;
     top: 25px;
     width: 30px;
     height: 30px;
@@ -38,9 +38,18 @@
 
 .lock{
     position: absolute;
-    right: 355px;
+    right: 357px;
     top: 25px;
     width: 30px;
     height: 30px;
     background: url(../img/자물쇠.png) no-repeat center/cover;
+}
+
+.hart{
+    position: absolute;
+    top: 25px;
+    right: 298px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/하트.png) no-repeat center/cover;
 }
