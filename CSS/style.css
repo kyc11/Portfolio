@@ -5,8 +5,16 @@
 }
 
 .top{
-    /* position: relative; */
-    height: 80px;
+    top:-10px;
+    height: 90px;
+    position: relative;
+}
+
+.top2{
+    top: -10px;
+    left: -30px;
+    height: 54px;
+    width: 5000px;
     position: relative;
 }
 
@@ -23,33 +31,42 @@
     left: 232px;
     top: 23px;
     width: 127px;
-    height: 30px;
+    height: 40px;
     background: url(../img/무신사\ 로고\ 2.jpg) no-repeat center/cover;
 }
 
 .human{
     position: absolute;
-    right: 415px;
+    right: 509px;
     top: 25px;
-    width: 30px;
-    height: 30px;
+    width: 37px;
+    height: 37px;
     background: url(../img/사람.png) no-repeat center/cover;
 }
 
 .lock{
     position: absolute;
-    right: 357px;
+    right: 443px;
     top: 25px;
-    width: 30px;
-    height: 30px;
+    width: 37px;
+    height: 37px;
     background: url(../img/자물쇠.png) no-repeat center/cover;
 }
 
 .hart{
     position: absolute;
     top: 25px;
-    right: 298px;
-    width: 30px;
-    height: 30px;
+    right: 376px;
+    width: 37px;
+    height: 37px;
     background: url(../img/하트.png) no-repeat center/cover;
+}
+
+.dbx{
+    position: absolute;
+    top: 25px;
+    right: 310px;
+    width: 37px;
+    height: 37px;
+    background: url(../img/네모.png) no-repeat center/cover;
 }
