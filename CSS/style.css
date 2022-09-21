@@ -32,7 +32,7 @@
     top: 23px;
     width: 127px;
     height: 40px;
-    background: url(../img/무신사\ 로고\ 2.jpg) no-repeat center/cover;
+    background: url(../rr/img/무신사\ 로고\ 2.jpg) no-repeat center/cover;
 }
 
 .human{
@@ -41,7 +41,7 @@
     top: 25px;
     width: 37px;
     height: 37px;
-    background: url(../img/사람.png) no-repeat center/cover;
+    background: url(../rr/img/사람.png) no-repeat center/cover;
 }
 
 .lock{
@@ -50,7 +50,7 @@
     top: 25px;
     width: 37px;
     height: 37px;
-    background: url(../img/자물쇠.png) no-repeat center/cover;
+    background: url(../rr/img/자물쇠.png) no-repeat center/cover;
 }
 
 .hart{
@@ -59,7 +59,7 @@
     right: 376px;
     width: 37px;
     height: 37px;
-    background: url(../img/하트.png) no-repeat center/cover;
+    background: url(../rr/img/하트.png) no-repeat center/cover;
 }
 
 .dbx{
@@ -68,5 +68,5 @@
     right: 310px;
     width: 37px;
     height: 37px;
-    background: url(../img/네모.png) no-repeat center/cover;
+    background: url(../rr/img/네모.png) no-repeat center/cover;
 }
