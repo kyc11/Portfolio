@@ -15,10 +15,10 @@
 }
 
 .htop2{
-    top: -10px;
+    top: -12px;
     left: -30px;
-    height: 54px;
-    width: 5000px;
+    height: 20px;
+    width: 50000px;
     position: relative;
 }
 
@@ -43,7 +43,7 @@
 
 .human{
     position: absolute;
-    right: 527px;
+    right: 516px;
     top: 25px;
     width: 37px;
     height: 37px;
@@ -52,7 +52,7 @@
 
 .lock{
     position: absolute;
-    right: 457px;
+    right: 447px;
     top: 25px;
     width: 37px;
     height: 37px;
@@ -62,7 +62,7 @@
 .hart{
     position: absolute;
     top: 25px;
-    right: 390px;
+    right: 382px;
     width: 37px;
     height: 37px;
     background: url(../rr/img/하트.png) no-repeat center/cover;
@@ -71,7 +71,7 @@
 .dbx{
     position: absolute;
     top: 25px;
-    right: 323px;
+    right: 315px;
     width: 37px;
     height: 37px;
     background: url(../rr/img/네모.png) no-repeat center/cover;
