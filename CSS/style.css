@@ -13,19 +13,22 @@ body *{
 }
 
 .top{
-    height: 90px;
+    height: 76px;
 }
 
 .menu{
-    height: 70px;
+    height: 52px;
 }
 
 .cont{
-    height: 5000px;
-}
-
-.info{
     height: 500px;
 }
 
+.hmenu{
+    height: 53px;
+}
+
+.info{
+    height: 300px;
+}
 
