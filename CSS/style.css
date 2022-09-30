@@ -4,31 +4,3 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-body *{
-    border: 1px solid red;
-}
-
-.ibx{
-    border: 2px solid #dbdbdb;
-}
-
-.top{
-    height: 76px;
-}
-
-.menu{
-    height: 52px;
-}
-
-.cont{
-    height: 500px;
-}
-
-.hmenu{
-    height: 53px;
-}
-
-.info{
-    height: 300px;
-}
-
