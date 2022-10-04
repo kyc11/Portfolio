@@ -9,7 +9,16 @@ body *{
 }
 
 .top{
+    
     height: 200px;
+}
+
+.human{
+    width: 35px;
+    height: 35px;
+    margin-left: 71.3%;
+
+    background: url(../rr/img/사람.png) no-repeat center/cover;
 }
 
 .cont{
