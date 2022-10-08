@@ -8,16 +8,25 @@ body *{
     border: 1px solid red;
 }
 
+ul,ol{
+    list-style: none;
+}
+
 .top{
     
     height: 200px;
 }
 
-.top ul li .img{
+.top .human img{
     width: 35px;
     height: 35px;
-    margin-left: 71.3%;
+    /* margin-left: 71.3%; */
+    padding-left: 40%;
+    
+}
 
+.top .human a{
+    display: block;
     
 }
 
