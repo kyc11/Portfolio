@@ -24,7 +24,6 @@ ul,ol{
     margin-left: 71.2%;
 }
 
-
 .top{
     position: relative;
     height: 75px;
@@ -40,25 +39,6 @@ ul,ol{
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     
-}
-
-.human{
-    position: absolute;
-}
-
-.rock{
-    position: absolute;
-    margin-left: 3.6%;
-}
-
-.heart{
-    position: absolute;
-    margin-left: 7.2%;
-}
-
-.dbx{
-    position: absolute;
-    margin-left: 10.8%;
 }
 
 .top img{   
