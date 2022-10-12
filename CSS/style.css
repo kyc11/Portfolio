@@ -17,38 +17,28 @@ ul,ol{
     list-style: none;
 }
 
-.gnb{
-    width: 38px;
-    height: 38px;
-    padding-top: 0.6%; 
-    margin-left: 71.2%;
+.ibx{
+    position: relative;
+
+    /* 플렉스박스 */
+    display: flex;
+    /* 크기가 넘치면 아래로 내려감 */
+    flex-wrap: wrap;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    outline: 1px dashed gray;
+    /* 임시높이 */
+    min-height: 100px;
+}
+
+.cbx{
+    outline: 1px dotted black;
 }
 
 .top{
-    position: relative;
+    
     height: 75px;
-}
-
-.lgo{
-    position: absolute;
-    margin-left: 16.5%;
-    margin-top: -0.4%;
-}
-
-.lgo p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    
-}
-
-.top img{   
-    width: 35px;
-    height: 35px;
-}
-
-.top .human a{
-    display: block;
-    
 }
 
 .cont{
@@ -58,3 +48,16 @@ ul,ol{
 .info{
     height: 200px;
 }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
