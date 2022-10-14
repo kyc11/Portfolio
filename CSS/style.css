@@ -49,16 +49,23 @@ ul,ol{
 
 .top input{
     position: absolute;
-    width: 453px;
-    height: 40px;
+    width: 462px;
+    height: 44px;
     border-radius: 25px;
-    top: 23%;
+    top: 24%;
     right: 3.3%;
     background-color: #f1f1f5;
+    border: none;
 }
 
 .top input[type=text]{
-    padding-left: 30px;
+    padding-left:24px;
+    box-sizing: border-box;
+}
+
+.top input::placeholder{
+    color: #aeaeae;
+    font-size: 15px;
 }
 
 .top{
