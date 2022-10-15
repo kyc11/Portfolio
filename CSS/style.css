@@ -30,6 +30,18 @@ ul,ol{
     min-height: 88px;
 }
 
+.ebx{
+    display: flex;
+    /* 크기가 넘치면 아래로 내려감 */
+    flex-wrap: wrap;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    outline: 1px dashed gray;
+    /* 임시높이 */
+    min-height: 50px;
+}
+
 .cbx{
     outline: 1px dotted black;
 }
@@ -68,18 +80,98 @@ ul,ol{
     font-size: 15px;
 }
 
-.top .human{
-    left: 0;
-    
+.sbx{
+    position: absolute;
+    display: flex;
+    top: 33%;   
+    right: 0;
 }
 
-.top .human img{
-    width: 30px;
-    height: 30px;
+.sbx li:first-child{
+    padding-right: 15px;
 }
+
+.sbx li:nth-child(2){
+    padding: 0 15px
+}
+
+.sbx li:nth-child(3){
+    padding: 0 15px;
+}
+
+.sbx li:last-child{
+    padding-left: 15px;
+}
+
+.top .sbx img{
+    right: 0;
+    width: 38px;
+    height: 38px;
+}
+
+
+
+
+.sme,.sme2,.sme{
+    position: absolute;
+    display: flex;
+    top: 30%;
+}
+
+.sme,.sme2,.sme3{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.stop .hbb img{
+    width: 20px;
+    height: 20px;
+}
+
+.sme li:nth-child(2){
+    padding-left: 5px;
+}
+
+.sme2{
+    left: 18%;
+}
+
+.ssme{
+    display: flex;
+    left: 30%;
+}
+
+.ssme li:first-child{
+    padding-right: 25px;
+}
+.ssme li:nth-child(2){
+    padding-right: 25px;
+}
+.ssme li:nth-child(3){
+    padding-right: 25px;
+}
+.ssme li:nth-child(4){
+    padding-right: 25px;
+}
+.ssme li:nth-child(5){
+    padding-right: 25px;
+}
+.ssme li:nth-child(6){
+    padding-right: 25px;
+}
+.ssme li:nth-child(7){
+    padding-right: 25px;
+}
+
+
 
 .top{
     height: 88px;
+}
+
+.stop{
+    height: 55px;
 }
 
 .cont{
