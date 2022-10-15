@@ -68,6 +68,16 @@ ul,ol{
     font-size: 15px;
 }
 
+.top .human{
+    left: 0;
+    
+}
+
+.top .human img{
+    width: 30px;
+    height: 30px;
+}
+
 .top{
     height: 88px;
 }
