@@ -112,7 +112,7 @@ ul,ol{
 
 
 
-.sme,.sme2,.sme{
+.sme,.sme2,.sme3{
     position: absolute;
     display: flex;
     top: 30%;
@@ -162,6 +162,22 @@ ul,ol{
 }
 .ssme li:nth-child(7){
     padding-right: 25px;
+}
+
+.sme3{
+    right: 0;
+}
+
+.sme3 a{
+    color: #767676;
+}
+
+.sme3 li:nth-child(2){
+    padding-left: 20px;
+}
+
+.sme3 li:last-child{
+    padding-left: 20px;
 }
 
 
