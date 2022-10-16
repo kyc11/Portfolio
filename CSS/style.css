@@ -10,7 +10,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body *{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 ul,ol{
@@ -25,7 +25,7 @@ ul,ol{
 
     max-width: 1280px;
     margin: 0 auto;
-    outline: 1px dashed gray;
+    /* outline: 1px dashed gray; */
     /* 임시높이 */
     min-height: 88px;
 }
@@ -37,13 +37,13 @@ ul,ol{
 
     max-width: 1280px;
     margin: 0 auto;
-    outline: 1px dashed gray;
+    /* outline: 1px dashed gray; */
     /* 임시높이 */
     min-height: 50px;
 }
 
 .cbx{
-    outline: 1px dotted black;
+    /* outline: 1px dotted black; */
 }
 
 .por{
