@@ -180,7 +180,9 @@ ul,ol{
     padding-left: 20px;
 }
 
-
+.ttop{
+    border-bottom: 2px solid #dbdbdb;
+}
 
 .top{
     height: 88px;
