@@ -42,6 +42,18 @@ ul,ol{
     min-height: 50px;
 }
 
+.hbx{
+    display: flex;
+    /* 크기가 넘치면 아래로 내려감 */
+    flex-wrap: wrap;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    /* outline: 1px dashed gray; */
+    /* 임시높이 */
+    min-height: 57px;
+}
+
 .cbx{
     /* outline: 1px dotted black; */
 }
@@ -71,13 +83,21 @@ ul,ol{
 }
 
 .top input[type=text]{
+    padding-top: 3px;
     padding-left:24px;
     box-sizing: border-box;
 }
 
 .top input::placeholder{
     color: #aeaeae;
-    font-size: 15px;
+    font-size: 16px;
+}
+
+.top input[type=image]{
+    top: 37%;
+    right: 7.5%;
+    width: 20px;
+    height: 20px;
 }
 
 .sbx{
@@ -180,6 +200,23 @@ ul,ol{
     padding-left: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+.hbx ul{
+    display: flex;
+    padding-top: 17px;
+}
+
+
+
+
 .ttop{
     border-bottom: 2px solid #dbdbdb;
 }
@@ -196,8 +233,8 @@ ul,ol{
     height: 500px;
 }
 
-.info{
-    height: 200px;
+.info2{
+    height: 370px;
 }
 
 .col-1 {width: 8.33%;}
