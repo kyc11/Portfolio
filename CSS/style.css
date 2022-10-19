@@ -210,7 +210,7 @@ ul,ol{
 
 
 .hbx ul{
-    /* position: absolute; */
+    position: absolute;
     display: flex;
     top: 33%;
     font-size: 14px;
@@ -218,17 +218,28 @@ ul,ol{
     text-align: center;
 }
 
+.hbx ul li{
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .hbx ul li+li{
-    padding-left: 41px;
+    padding-left: 4px;
 }
 
 .hbx ul li+li::before{
-    content: 'ㅣ';
+    content: 'l';
+    color: #dbdbdb;
+    margin: 0 15px;
+    
+    
     
     
 }
 
-
+#seleml{
+    width: 80px;
+    
+}
 
 
 .ttop{
@@ -245,6 +256,11 @@ ul,ol{
 
 .cont{
     height: 500px;
+}
+
+.info{
+    height: 57px;
+
 }
 
 .info2{
