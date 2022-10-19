@@ -210,8 +210,22 @@ ul,ol{
 
 
 .hbx ul{
+    /* position: absolute; */
     display: flex;
-    padding-top: 17px;
+    top: 33%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hbx ul li+li{
+    padding-left: 41px;
+}
+
+.hbx ul li+li::before{
+    content: 'ㅣ';
+    
+    
 }
 
 
