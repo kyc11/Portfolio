@@ -263,6 +263,9 @@ ul,ol{
 /* (주)두드코 디자인 */
 .info2 h3{
     padding-top: 4.4%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
 }
 
 /* 하단소개 박스 */
@@ -270,7 +273,7 @@ ul,ol{
 .hib{
     display: flex;
     padding-top: 2%;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     
@@ -280,29 +283,63 @@ ul,ol{
 .hib li+li::before{
     content: 'l';
     color: #dbdbdb;
-    margin: 0 11px;
+    margin: 0 12px;
 }
 
 .hib li+li{
-    padding-left: 5px;
-    letter-spacing: -0.3px;
+    padding-left: 3px;
+    letter-spacing: -0.2px;
 }
 
 /* 하단소개 설정 */
 /* 통신판매업신고.. */
 .hib2{
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     padding-top: 1%;
 }
 
 .hib2 li+li{
-    padding-left: 30px;
+    padding-left: 3px;
 }
 
+.hib2 li+li::before{
+    content: 'l';
+    color: #dbdbdb;
+    margin: 0 12px;
+}
 
+/* 소비자피해보상 */
+.info2 h5{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* 고객님의 안전거래... */
+.info2 p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+/* 우 하단소개 */
+.llbx h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.llbx li {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+}
+
+.llbx li span{
+    
+}
 
 
 /* 두번째탑 위쪽 구분선 설정 */
