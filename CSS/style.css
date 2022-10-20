@@ -238,14 +238,14 @@ ul,ol{
 
 /* 하단박스 회사소개쪽 사이간격설정 */
 .infof ul li+li{
-    padding-left: 4px;
+    padding-left: 5px;
 }
 
 /* 하단박스 회사소개쪽 사이 줄만들기 */
 .infof ul li+li::before{
     content: 'l';
     color: #dbdbdb;
-    margin: 0 15px;
+    margin: 0 14px;
 }
 
 /* 하단박스 판매자서비스쪽 박스 크기설정 */
@@ -269,8 +269,10 @@ ul,ol{
 /* 대표이사....사업자등록번호 */
 .hib{
     display: flex;
+    padding-top: 2%;
     font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
     
 }
 
@@ -283,10 +285,22 @@ ul,ol{
 
 .hib li+li{
     padding-left: 5px;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.3px;
 }
 
+/* 하단소개 설정 */
+/* 통신판매업신고.. */
+.hib2{
+    display: flex;
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    padding-top: 1%;
+}
 
+.hib2 li+li{
+    padding-left: 30px;
+}
 
 
 
