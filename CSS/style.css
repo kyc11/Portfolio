@@ -62,6 +62,9 @@ ul,ol{
     position: relative;
 }
 
+/* 상단영역 */
+
+/* DUDCO로고 */
 .dudco{
     position: absolute;
     left: 0;
@@ -71,6 +74,7 @@ ul,ol{
     top: 31%;
 }
 
+/* DUDCO로고 옆 검색박스 */
 .top input{
     position: absolute;
     width: 462px;
@@ -82,17 +86,20 @@ ul,ol{
     border: none;
 }
 
+/* 검색박스 폰트 포지션설정 */
 .top input[type=text]{
     padding-top: 3px;
     padding-left:24px;
     box-sizing: border-box;
 }
 
+/* 검색박스 폰트 속성설정 */
 .top input::placeholder{
     color: #aeaeae;
     font-size: 16px;
 }
 
+/* 검색박스 오른쪽검색모양 이미지 속성,포지션설정 */
 .top input[type=image]{
     top: 37%;
     right: 7.5%;
@@ -100,6 +107,8 @@ ul,ol{
     height: 20px;
 }
 
+/* 사이드박스 */
+/* 사이드 로고 전체박스 */
 .sbx{
     position: absolute;
     display: flex;
@@ -107,22 +116,22 @@ ul,ol{
     right: 0;
 }
 
+/* 사람로고 포지션설정 */
 .sbx li:first-child{
-    padding-right: 15px;
+    padding-right: 28px;
 }
 
+/* 자물쇠로고 포지션설정 */
 .sbx li:nth-child(2){
-    padding: 0 15px
+    padding-right: 28px;
 }
 
+/* 더블박스로고 포지션설정 */
 .sbx li:nth-child(3){
-    padding: 0 15px;
+    padding-right: 28px;
 }
 
-.sbx li:last-child{
-    padding-left: 15px;
-}
-
+/* 상단 사이드박스 이미지 사이즈속성 */
 .top .sbx img{
     right: 0;
     width: 38px;
@@ -131,31 +140,36 @@ ul,ol{
 
 
 
-
+/* 서브메뉴1 2 3 속성설정*/
 .sme,.sme2,.sme3{
     position: absolute;
     display: flex;
     top: 30%;
 }
 
+/* 서브메뉴 1 2 3 폰트설정 */
 .sme,.sme2,.sme3{
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: 15px;
 }
 
+/* 서브탑 햄버거버튼 이미지 사이즈설정 */
 .stop .hbb img{
     width: 20px;
     height: 20px;
 }
 
+/* 카테고리 포지션설정 */
 .sme li:nth-child(2){
     padding-left: 5px;
 }
 
+/* 두번째 서브메뉴 전체박스 포지션 설정 */
 .sme2{
     left: 18%;
 }
+
 
 .ssme{
     display: flex;
@@ -218,29 +232,24 @@ ul,ol{
     text-align: center;
 }
 
-.hbx ul li{
+.infof ul li{
     font-family: 'Noto Sans', sans-serif;
 }
 
-.hbx ul li+li{
+.infof ul li+li{
     padding-left: 4px;
 }
 
-.hbx ul li+li::before{
+.infof ul li+li::before{
     content: 'l';
     color: #dbdbdb;
     margin: 0 15px;
-    
-    
-    
-    
 }
 
 #seleml{
     width: 80px;
     
 }
-
 
 .ttop{
     border-bottom: 2px solid #dbdbdb;
