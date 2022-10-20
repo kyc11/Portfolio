@@ -233,7 +233,7 @@ ul,ol{
 
 /* 하단박스 회사소개쪽 ul 폰트설정 */
 .infof ul li{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans:wght@100', sans-serif;
 }
 
 /* 하단박스 회사소개쪽 사이간격설정 */
@@ -260,8 +260,30 @@ ul,ol{
 
 
 /* 하단소개 설정 */
+/* (주)두드코 디자인 */
 .info2 h3{
     padding-top: 4.4%;
+}
+
+/* 하단소개 박스 */
+/* 대표이사....사업자등록번호 */
+.hib{
+    display: flex;
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+/* 하단소개 박스 사이선 */
+.hib li+li::before{
+    content: 'l';
+    color: #dbdbdb;
+    margin: 0 11px;
+}
+
+.hib li+li{
+    padding-left: 5px;
+    letter-spacing: -0.5px;
 }
 
 
