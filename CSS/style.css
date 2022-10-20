@@ -116,17 +116,17 @@ ul,ol{
     right: 0;
 }
 
-/* 사람로고 포지션설정 */
+/* 사람로고 사이간격설정 */
 .sbx li:first-child{
     padding-right: 28px;
 }
 
-/* 자물쇠로고 포지션설정 */
+/* 자물쇠로고 사이간격설정 */
 .sbx li:nth-child(2){
     padding-right: 28px;
 }
 
-/* 더블박스로고 포지션설정 */
+/* 더블박스로고 사이간격설정 */
 .sbx li:nth-child(3){
     padding-right: 28px;
 }
@@ -168,44 +168,43 @@ ul,ol{
 /* 두번째 서브메뉴 전체박스 포지션 설정 */
 .sme2{
     left: 18%;
-}
-
-
-.ssme{
     display: flex;
-    left: 30%;
 }
 
-.ssme li:first-child{
+/* 두번째 서브메뉴 li사이 간격 설정 */
+.sme2 li:first-child{
     padding-right: 25px;
 }
-.ssme li:nth-child(2){
+.sme2 li:nth-child(2){
     padding-right: 25px;
 }
-.ssme li:nth-child(3){
+.sme2 li:nth-child(3){
     padding-right: 25px;
 }
-.ssme li:nth-child(4){
+.sme2 li:nth-child(4){
     padding-right: 25px;
 }
-.ssme li:nth-child(5){
+.sme2 li:nth-child(5){
     padding-right: 25px;
 }
-.ssme li:nth-child(6){
+.sme2 li:nth-child(6){
     padding-right: 25px;
 }
-.ssme li:nth-child(7){
+.sme2 li:nth-child(7){
     padding-right: 25px;
 }
 
+/* 로그인쪽 서브메뉴 포지션설정 */
 .sme3{
     right: 0;
 }
 
+/* 로그인쪽 서브메뉴 폰트컬러설정 */
 .sme3 a{
     color: #767676;
 }
 
+/* 로그인쪽 서브메뉴 사이간격 설정 */
 .sme3 li:nth-child(2){
     padding-left: 20px;
 }
@@ -222,7 +221,7 @@ ul,ol{
 
 
 
-
+/* 하단박스 ul 속성설정 */
 .hbx ul{
     position: absolute;
     display: flex;
@@ -232,25 +231,45 @@ ul,ol{
     text-align: center;
 }
 
+/* 하단박스 회사소개쪽 ul 폰트설정 */
 .infof ul li{
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* 하단박스 회사소개쪽 사이간격설정 */
 .infof ul li+li{
     padding-left: 4px;
 }
 
+/* 하단박스 회사소개쪽 사이 줄만들기 */
 .infof ul li+li::before{
     content: 'l';
     color: #dbdbdb;
     margin: 0 15px;
 }
 
+/* 하단박스 판매자서비스쪽 박스 크기설정 */
 #seleml{
     width: 80px;
     
 }
 
+
+
+
+
+
+/* 하단소개 설정 */
+.info2 h3{
+    padding-top: 4.4%;
+}
+
+
+
+
+
+
+/* 두번째탑 위쪽 구분선 설정 */
 .ttop{
     border-bottom: 2px solid #dbdbdb;
 }
@@ -273,7 +292,7 @@ ul,ol{
 }
 
 .info2{
-    height: 370px;
+    height: 315px;
 }
 
 .col-1 {width: 8.33%;}
