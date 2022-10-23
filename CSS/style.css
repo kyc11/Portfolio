@@ -318,6 +318,12 @@ ul,ol{
     font-size: 15px;
 }
 
+select {
+    appearance:none;
+    background:url(../rr/img/아래\ 화살표.png) no-repeat 97% 50%/15px auto;
+    border: none;
+}
+
 /* 고객님의 안전거래... */
 .info2 p{
     font-family: 'Noto Sans KR', sans-serif;
