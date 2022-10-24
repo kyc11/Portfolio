@@ -55,16 +55,16 @@ ul,ol{
 }
 
 .tbx{
-
+    height: 88px;
 }
 
-.top ul{
+.tbx ul{
     display: flex;
+    align-content: center;
 }
 
 .por{
     position: relative;
-    align-content: center;
 }
 
 /* 상단영역 */
