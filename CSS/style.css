@@ -57,6 +57,7 @@ ul,ol{
 .cbx{
     height: 88px;
     display: flex;
+    align-items: center;
 }
 
 .por{
@@ -71,6 +72,7 @@ ul,ol{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 28px;
+    justify-content: flex-start;
 
 }
 
@@ -79,10 +81,9 @@ ul,ol{
     width: 462px;
     height: 44px;
     border-radius: 25px;
-    top: 24%;
-    right: 3.3%;
     background-color: #f1f1f5;
     border: none;
+    justify-content: flex-end;
 }
 
 /* 검색박스 폰트 포지션설정 */
