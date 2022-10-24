@@ -54,24 +54,27 @@ ul,ol{
     min-height: 57px;
 }
 
-.cbx{
-    
+.tbx{
+
+}
+
+.top ul{
+    display: flex;
 }
 
 .por{
     position: relative;
+    align-content: center;
 }
 
 /* 상단영역 */
 
 /* DUDCO로고 */
 .dudco{
-    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 28px;
-    justify-content: flex-start;
-
+    
 }
 
 /* DUDCO로고 옆 검색박스 */
@@ -81,7 +84,6 @@ ul,ol{
     border-radius: 25px;
     background-color: #f1f1f5;
     border: none;
-    justify-content: flex-end;
 }
 
 /* 검색박스 폰트 포지션설정 */
