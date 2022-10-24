@@ -55,7 +55,8 @@ ul,ol{
 }
 
 .cbx{
-    /* outline: 1px dotted black; */
+    height: 88px;
+    display: flex;
 }
 
 .por{
@@ -66,17 +67,15 @@ ul,ol{
 
 /* DUDCO로고 */
 .dudco{
-    position: absolute;
-    left: 0;
+    display: block;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 28px;
-    top: 31%;
+
 }
 
 /* DUDCO로고 옆 검색박스 */
 .top input{
-    position: absolute;
     width: 462px;
     height: 44px;
     border-radius: 25px;
