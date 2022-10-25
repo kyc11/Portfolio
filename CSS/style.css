@@ -342,29 +342,23 @@ ul,ol{
     font-size: 15px;
 }
 
-select {
-    font-family: 'Noto Sans KR';
-    font-size: 15px;
-    font-weight: 500;
-    appearance:none;
-    background:url(../rr/img/아래\ 화살표.png) no-repeat 97% 50%/15px auto;
-    border: none;
-}
-
-.infos ul{
-    position: relative;
+.infos img{
+    margin-top: 22px;
+    margin-left: 8px;
+    width: 13px;
+    height: 11px;
 }
 
 .infos li{
-    position: absolute;
+    line-height: 56px;
+}
+
+.infos ul{
+    float: right;
 }
 
 .infos li:first-child{
-    left: 14%;
-}
-
-.infos li:last-child{
-    right: 2%;
+    padding-right: 30px;
 }
 
 /* 고객님의 안전거래... */
@@ -377,29 +371,42 @@ select {
 
 /* 우 하단소개 */ 
 .llbx h3{
-    padding-left: 22%;
+    padding-left: 21%;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 700;
     font-size: 19px;
 }
 
-.llbx li {
+.illbx li {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    padding-left: 22%;
+    padding-left: 21%;
 }
 
-.llbx p{
+.illbx {
     font-size: 12px;
 }
 
-.llbx img{
-    width: 20px;
-    height: 20px;
+.illbx li:nth-child(2) img{
+    margin-top: 1.2px;
+    width: 15px;
+    height: 15px;
 }
 
-.llbx li:last-child{
-    display: flex;
+.illbx2 li{
+    padding-left: 21%;
+}
+
+
+
+.illbx2 li:first-child{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.illbx2 li:nth-child(2){
+    font-weight: 400;
+    font-size: 12px;
 }
 
 
