@@ -257,8 +257,16 @@ ul,ol{
 }
 
 .scont ul{
-   /* 폰트 정해야함 */ 
+    /* 폰트 정해야함 */ 
+}
+
+.scont .cul{
    margin-left: 9.3%;
+}
+
+.scont .cul2{
+    display: flex;
+    float: right;
 }
 
 
