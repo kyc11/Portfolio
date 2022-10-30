@@ -30,6 +30,19 @@ ul,ol{
     min-height: 88px;
 }
 
+.mbx{
+    /* 플렉스박스 */
+    display: flex;
+    /* 크기가 넘치면 아래로 내려감 */
+    flex-wrap: wrap;
+
+    max-width: 1580px;
+    margin: 0 auto;
+    /* outline: 1px dashed gray; */
+    /* 임시높이 */
+    min-height: 90px;
+}
+
 .ebx{
     display: flex;
     /* 크기가 넘치면 아래로 내려감 */
@@ -237,7 +250,27 @@ ul,ol{
 
 
 
+.scont span{
+    width: 1580px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.234);
+}
 
+.scont ul{
+    /* 폰트 정해야함 */ 
+}
+
+.scont .cul{
+   margin-left: 9.3%;
+}
+
+.scont .cdi{
+    display: flex;
+}
+
+.scont .cul2{
+    float: right;
+}
 
 
 
@@ -249,7 +282,6 @@ ul,ol{
 .hbx ul{
     display: flex;
     font-size: 15px;
-    text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 600;
 }
@@ -408,7 +440,7 @@ ul,ol{
 }
 
 .illbx2 li{
-    padding-left: 21%;
+    padding-left: 26%;
 }
 
 
@@ -416,6 +448,7 @@ ul,ol{
 .illbx2 li:first-child{
     font-weight: 600;
     font-size: 14px;
+    padding-bottom: 3px;
 }
 
 .illbx2 li:nth-child(2){
@@ -430,6 +463,7 @@ ul,ol{
 
 .illbx2{
     padding-top: 30px;
+    padding-left: 21%;
 }
 
 
@@ -452,7 +486,11 @@ ul,ol{
 }
 
 .cont{
-    height: 500px;
+    height: 5000px;
+}
+
+.scont{
+    height: 857px;
 }
 
 .info{
