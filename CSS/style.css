@@ -250,7 +250,7 @@ ul,ol{
 
 
 
-.scont span{
+.scont>span{
     width: 1580px;
     height: 600px;
     background: rgba(0, 0, 0, 0.234);
@@ -260,17 +260,61 @@ ul,ol{
     /* 폰트 정해야함 */ 
 }
 
-.scont .cul{
-   margin-left: 9.3%;
+.cul{
+    white-space: nowrap;
+    padding-left: 35%;
+}
+
+.cul li:first-child{
+    font-size: 40px;
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+
+.cul li:nth-child(2){
+    font-size: 15px;
+    color: #767676;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+
+.cul li:last-child{
+    font-size: 15px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.cul li:last-child img{
+    width: 30px;
+    height: 18px;
 }
 
 .scont .cdi{
     display: flex;
 }
 
-.scont .cul2{
-    float: right;
+.scont .cul2 img{
+    width: 20px;
+    height: 20px;
 }
+
+.scont .cul2{
+    display: flex;
+    position: absolute;
+    right: 30px;
+}
+
+.cul2 {
+    color: #707070;
+}
+
+.cul2 span{
+    color: #000;
+}
+
+
 
 
 
