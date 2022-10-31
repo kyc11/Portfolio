@@ -308,9 +308,7 @@ ul,ol{
     display: flex;
     position: absolute;
     right: 9.5%;
-}
-
-.cul2 {
+    bottom: 16%;
     color: #707070;
 }
 
@@ -327,7 +325,11 @@ ul,ol{
     padding-right: 16px;
 }
 
-
+.cont span{
+    width: 1280px;
+    height: 276px;
+    background: #707070;
+}
 
 
 
