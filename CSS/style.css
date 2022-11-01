@@ -372,7 +372,7 @@ ul,ol{
 
 
 
-.di2 p{
+.di2 h2{
     text-align: center;
     margin-top: 91px;
     font-family: 'Roboto', sans-serif;
@@ -388,6 +388,7 @@ ul,ol{
 
 .cull2 {
     display: flex;
+    padding-top: 32px;
 }
 
 .cull2 span{
@@ -400,6 +401,10 @@ ul,ol{
     width: 314px;
     height: 314px;
     padding-top: 41px;
+}
+
+.cull2 li+li{
+    padding-left: 8px;
 }
 
 
