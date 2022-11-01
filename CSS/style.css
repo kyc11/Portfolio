@@ -384,6 +384,8 @@ ul,ol{
     background: rgba(0, 0, 0, 0.03);
     width: 314px;
     height: 396px;
+    display: block;
+    box-sizing: border-box;
 }
 
 .cull2 {
@@ -391,21 +393,61 @@ ul,ol{
     padding-top: 32px;
 }
 
-.cull2 span{
-    display: block;
-    box-sizing: border-box;
-}
-
 .icun{
     background: #dbdbdb;
     width: 314px;
     height: 314px;
-    padding-top: 41px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 41px;
 }
 
 .cull2 li+li{
     padding-left: 8px;
 }
+
+.lp{
+    display: inline-block;
+}
+
+.ls{
+    display: inline-block;
+}
+
+.cull2 p:nth-child(2){
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 16px;
+    color: #191919;
+}
+
+.cull2 p:nth-child(3){
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 2px;
+    color: #505050;
+}
+
+.cull2 p:nth-child(4){
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #191919;
+    padding-top: 12px;
+}
+
+.cull2 p:nth-child(4) span{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #191919;
+    padding-left: 2px;
+}
+
+
 
 
 
