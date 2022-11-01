@@ -324,11 +324,88 @@ ul,ol{
     padding-right: 16px;
 }
 
-.cont span{
+.ibx>span{
     width: 1280px;
     height: 276px;
     background: rgba(0, 0, 0, 0.238);
 }
+
+
+
+
+
+.cull span{
+    display: block;
+    width: 420px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.242);
+}
+
+.cull{
+    display: flex;
+    padding-top: 191px;
+}
+
+.cull li+li{
+    padding-left: 10px;
+}
+
+.cull p{
+    text-align: center;
+}
+
+.cull p:nth-child(2){
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.cull p:nth-child(3){
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    color: #767676;
+    padding-top: 8px;
+}
+
+
+
+
+.di2 p{
+    text-align: center;
+    margin-top: 91px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.cun {
+    background: rgba(0, 0, 0, 0.03);
+    width: 314px;
+    height: 396px;
+}
+
+.cull2 {
+    display: flex;
+}
+
+.cull2 span{
+    display: block;
+    box-sizing: border-box;
+}
+
+.icun{
+    background: #dbdbdb;
+    width: 314px;
+    height: 314px;
+    padding-top: 41px;
+}
+
+
+
+
+
 
 
 
@@ -550,7 +627,7 @@ ul,ol{
 }
 
 .cont{
-    height: 5000px;
+    height: 2000px;
 }
 
 .scont{
