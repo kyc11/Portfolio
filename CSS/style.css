@@ -501,19 +501,36 @@ ul,ol{
 
 .mgz{
     background: #e9e9e9;
-    width: 1920px;
     height: 1052px;
-    margin: 0 auto;
 }
 
 .mgz h2{
+    text-align: center;
     font-family: 'roboto', sans-serif;
     font-size: 52px;
     font-weight: 300;
-    text-align: center;
+    padding-top: 124px;
 }
 
+.mgz ul{
+    display: flex;
+    padding-top: 40px;
+}
 
+.sb{
+    display: block;
+    width: 280px;
+    height: 352px;
+    background: rgba(0, 0, 0, 0.237);
+    
+}
+
+.bb{
+    display: block;
+    width: 500px;
+    height: 640px;
+    background: rgba(0, 0, 0, 0.233);
+}
 
 
 
@@ -736,10 +753,6 @@ ul,ol{
 
 .cont{
     height: 1456px;
-}
-
-.ih{
-    height: 1052px;
 }
 
 .scont{
