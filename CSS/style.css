@@ -512,9 +512,11 @@ ul,ol{
     padding-top: 124px;
 }
 
-.mgz ul{
+.did{
     display: flex;
     padding-top: 40px;
+    width: auto;
+    height: 640px;
 }
 
 .sb{
@@ -522,15 +524,59 @@ ul,ol{
     width: 280px;
     height: 352px;
     background: rgba(0, 0, 0, 0.237);
-    
+    margin: auto 0;
+    overflow: hidden;
 }
 
 .bb{
     display: block;
-    width: 500px;
+    width: 535px;
     height: 640px;
     background: rgba(0, 0, 0, 0.233);
+    margin: 0 auto; 
 }
+
+.alr, .all{
+    margin: auto 0;
+}
+
+.all{
+    margin-right: 140px;
+}
+
+.alr{
+    margin-left: 140px;
+}
+
+.did img{
+    width: 38px;
+    height: 60px;
+}
+
+.sb1{
+    /* margin-right: 300px; */
+}
+
+.sb2{
+    
+}
+
+.sb3{
+
+}
+
+.sb4{
+    /* margin-right: 300px; */
+}
+
+.mgz p{
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
 
 
 
