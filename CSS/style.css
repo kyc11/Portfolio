@@ -502,6 +502,7 @@ ul,ol{
 .mgz{
     background: #e9e9e9;
     height: 1052px;
+    position: relative;
 }
 
 .mgz h2{
@@ -530,22 +531,35 @@ ul,ol{
 
 .bb{
     display: block;
-    width: 535px;
+    width: 500px;
     height: 640px;
     background: rgba(0, 0, 0, 0.233);
     margin: 0 auto; 
 }
 
+.bbo{
+    margin: 0 auto;
+}
+
+.icbx{
+    margin: 0 auto; 
+    display: flex;
+}
+
 .alr, .all{
-    margin: auto 0;
+    margin: 0;
 }
 
 .all{
-    margin-right: 140px;
+    margin-right: 135px;
 }
 
 .alr{
-    margin-left: 140px;
+    margin-left: 135px;
+}
+
+.alll, .alrr{
+    margin: auto 0;
 }
 
 .did img{
@@ -553,20 +567,25 @@ ul,ol{
     height: 60px;
 }
 
+.sb1, .sb2, .sb3, .sb4{
+    position: absolute;
+    top: 35%;
+}
+
 .sb1{
-    /* margin-right: 300px; */
+    left: -9.5%;
 }
 
 .sb2{
-    
+    left: 5.9%;
 }
 
 .sb3{
-
+    right: 5.8%;
 }
 
 .sb4{
-    /* margin-right: 300px; */
+    right: -9.6%;
 }
 
 .mgz p{
