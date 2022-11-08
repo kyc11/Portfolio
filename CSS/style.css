@@ -639,17 +639,28 @@ ul,ol{
     line-height: 40px;
 }
 
+.fcbx2 p, .fcbx3 p{
+    color: #767676;
+}
+
 .fcbx2.on{
     outline: 1px solid #000;
+    color: #000;
 }
 
 .fcbx3.on{
     outline: 1px solid #000;
+    color: #000;
 }
 
 .fcbx2:hover,
 .fcbx3:hover{
     outline: 1px solid #000;
+}
+
+.fcbx2:hover p,
+.fcbx3:hover p{
+    color: #000;
 }
 
 .cont2 .cull2{
@@ -686,6 +697,7 @@ ul,ol{
 .rbx{
     width: 640px;
     height: 640px;
+    background: rgba(0, 0, 0, 0.150);
 }
 
 .lbx span{
@@ -912,7 +924,7 @@ ul,ol{
 }
 
 .cont{
-    height: 1456px;
+    height: 1573px;
 }
 
 .cont2{
