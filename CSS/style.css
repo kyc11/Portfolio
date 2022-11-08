@@ -147,6 +147,10 @@ ul,ol{
     height: 20px;
 }
 
+.sss{
+    outline: 2px solid #dbdbdb;
+}
+
 /* 사이드박스 */
 /* 사이드 로고 전체박스 */
 .sbx{
@@ -807,6 +811,9 @@ ul,ol{
 }
 
 
+.hhh{
+    outline: 1px solid #dbdbdb;
+}
 
 /* 하단박스 ul 속성설정 */
 /* 회사 소개쪽 */
