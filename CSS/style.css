@@ -720,7 +720,7 @@ ul,ol{
     display: block;
     width: 314px;
     height: 314px;
-    background: #000;
+    background: rgba(0, 0, 0, 0.287);
 }
 
 .iibx p{
