@@ -222,7 +222,7 @@ ul,ol{
 
 /* 두번째 서브메뉴 li사이 간격 설정 */
 .sme2 li:first-child{
-    padding-right: 25px;
+    /* padding-right: 25px; */
 }
 .sme2 li:nth-child(2){
     padding-right: 25px;
@@ -262,7 +262,11 @@ ul,ol{
     padding-right: 18px;
 }
 
-
+.sme2 ol li{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
 
 .smenu{
 
