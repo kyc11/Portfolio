@@ -264,6 +264,18 @@ ul,ol{
 
 
 
+.smenu{
+
+}
+
+.smenu::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    background-color:#fff;
+}
+
 
 
 .scont>span{
