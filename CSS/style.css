@@ -222,7 +222,7 @@ ul,ol{
 
 /* 두번째 서브메뉴 li사이 간격 설정 */
 .sme2 li:first-child{
-    /* padding-right: 25px; */
+    padding-right: 25px;
 }
 .sme2 li:nth-child(2){
     padding-right: 25px;
@@ -456,7 +456,8 @@ ul,ol{
     display: inline-block;
 }
 
-.cull2 p{
+.cull2 p,
+.cull2 img{
     transition: .2s;
 }
 
@@ -490,6 +491,14 @@ ul,ol{
     font-weight: 400;
     color: #191919;
     padding-left: 2px;
+}
+
+.cun{
+    overflow: hidden;
+}
+
+.cull2 li:hover img{
+    scale: 1.1;
 }
 
 .cull2 li:hover p:nth-child(2),
