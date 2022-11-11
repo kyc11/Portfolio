@@ -280,15 +280,14 @@ ul,ol{
     background-color:#fff;
 }
 
-
-
-.scont>span{
-    width: 1580px;
-    height: 600px;
+#slide, #slide2{
+    display: flex;
+    overflow: hidden;
 }
 
-.scont ul{
-    /* 폰트 정해야함 */ 
+#slide{
+    width: 1580px;
+    height: 600px;
 }
 
 .cul{
@@ -656,6 +655,9 @@ ul,ol{
 .fcbx p, .fcbx2 p, .fcbx3 p{
     text-align: center;
     line-height: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .fcbx2 p, .fcbx3 p{
