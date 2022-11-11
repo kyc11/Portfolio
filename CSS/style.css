@@ -156,7 +156,7 @@ ul,ol{
 .sbx{
     display: flex;
     float: right;
-    padding-top: 4%;
+    padding-top: 26px;
 }
 
 /* 사람로고 사이간격설정 */
@@ -628,18 +628,19 @@ ul,ol{
 
 .sb1{
     left: -9.5%;
+    display: flex;
+}
+
+.sb1 span:first-child{
+    margin-right: 10px;
 }
 
 .sb2{
-    left: 5.9%;
-}
-
-.sb3{
-    right: 5.8%;
-}
-
-.sb4{
     right: -9.6%;
+    display: flex;
+}
+.sb2 span:first-child{
+    margin-right: 10px;
 }
 
 .mgz p{

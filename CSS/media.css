@@ -2,5 +2,7 @@
 
 /* 1280px이하 미디어쿼리 */
 @media screen and (max-width:1280px){
-    
+    .top input {
+        width: 430px;
+    }
 }
