@@ -383,6 +383,7 @@ ul,ol{
 
 .cull p{
     text-align: center;
+    transition: .2s;
 }
 
 .cull p:nth-child(2){
@@ -398,6 +399,15 @@ ul,ol{
     font-weight: 400;
     color: #767676;
     padding-top: 8px;
+}
+
+/* 기능 */
+.cull li:hover p:nth-child(2){
+    font-size: 30px;
+}
+
+.cull li:hover p:nth-child(3){
+    font-size: 21px;
 }
 
 
@@ -446,6 +456,10 @@ ul,ol{
     display: inline-block;
 }
 
+.cull2 p{
+    transition: .2s;
+}
+
 .cull2 p:nth-child(2){
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
@@ -476,6 +490,19 @@ ul,ol{
     font-weight: 400;
     color: #191919;
     padding-left: 2px;
+}
+
+.cull2 li:hover p:nth-child(2),
+.cull2 li:hover p:nth-child(3){
+    font-size: 18px;
+}
+
+.cull2 li:hover p:nth-child(4){
+    font-size: 21px;
+}
+
+.cull2 li:hover p:nth-child(4) span{
+    font-size: 17px;
 }
 
 
