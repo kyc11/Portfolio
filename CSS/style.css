@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body *{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 ul,ol{
@@ -403,11 +403,11 @@ ul,ol{
 
 /* 기능 */
 .cull li:hover p:nth-child(2){
-    font-size: 30px;
+    transform:scale(1.1)
 }
 
 .cull li:hover p:nth-child(3){
-    font-size: 21px;
+    transform:scale(1.1)
 }
 
 
@@ -503,15 +503,15 @@ ul,ol{
 
 .cull2 li:hover p:nth-child(2),
 .cull2 li:hover p:nth-child(3){
-    font-size: 18px;
+    transform:scale(1.1)
 }
 
 .cull2 li:hover p:nth-child(4){
-    font-size: 21px;
+    transform:scale(1.1)
 }
 
 .cull2 li:hover p:nth-child(4) span{
-    font-size: 17px;
+    transform:scale(1.1)
 }
 
 
@@ -777,6 +777,11 @@ ul,ol{
     background: rgba(0, 0, 0, 0.287);
 }
 
+.iibx>span img,
+.iibx p{
+    transition: .2s;
+}
+
 .iibx p{
     padding-top: 16px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -808,6 +813,15 @@ ul,ol{
     font-weight: 300;
     text-align: center;
     color: #000;
+}
+
+/* 기능 */
+.lbx:hover .iibx>span img{
+    scale: 1.1;
+}
+
+.lbx:hover .iibx p{
+    transform:scale(1.1)
 }
 
 
