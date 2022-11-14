@@ -292,7 +292,7 @@ ul,ol{
 .smenu,sibx{
     height: 0px;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.164);
+    background: #fff;
     transition: all .5s;
 }
 
@@ -301,6 +301,7 @@ ul,ol{
     width: 1580px;
     left: -150px;
     z-index: 1;
+    border-radius: 0 0 50px 50px;
 }
 
 .ll1, .ll2, .ll3, .ll4, .ll5, .ll6, .ll7, .ll8{
@@ -310,7 +311,7 @@ ul,ol{
 .l1:hover .smenu, .l2:hover .smenu, .l3:hover .smenu,
 .l4:hover .smenu, .l5:hover .smenu, .l6:hover .smenu,
 .l7:hover .smenu, .l8:hover .smenu{
-    height: 300px;
+    height: 450px;
 }
 
 .l1:hover .ll1, .l2:hover .ll2, .l3:hover .ll3,
@@ -329,6 +330,9 @@ ul,ol{
     margin: 0 auto;
 }
 
+body{
+    background: rgba(0, 0, 0, 0.207);
+}
 
 
 
