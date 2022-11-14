@@ -274,22 +274,73 @@ ul,ol{
     overflow: hidden;
 }
 
-.smenu{
-    position: absolute;
-    display: block;
-    left: 0;
-    width: 1920px;
-    background: rgba(0, 0, 0, 0.326);
-}
-
-.list{
-    margin-left: 20px;
-}
-
 #slide{
     width: 1580px;
     height: 600px;
 }
+
+
+
+
+
+
+
+
+
+/* 기능 */
+
+.smenu{
+    height: 0px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.164);
+    transition: all .2s;
+}
+
+.smenu ul{
+    position: absolute;
+    left: 0;
+}
+
+.ll1, .ll2, .ll3, .ll4, .ll5, .ll6, .ll7, .ll8{
+    display: none;
+}
+
+.l1:hover .smenu, .l2:hover .smenu, .l3:hover .smenu,
+.l4:hover .smenu, .l5:hover .smenu, .l6:hover .smenu,
+.l7:hover .smenu, .l8:hover .smenu{
+    height: 300px;
+}
+
+.l1:hover .ll1, .l2:hover .ll2, .l3:hover .ll3,
+.l4:hover .ll4, .l5:hover .ll5, .l6:hover .ll6,
+.l7:hover .ll7, .l8:hover .ll8{
+    display: block;
+}
+
+.sme2 li.sm::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    margin-top: 1px;
+    background-color: #fff;
+    transition: height .4s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cul{
     position: absolute;
