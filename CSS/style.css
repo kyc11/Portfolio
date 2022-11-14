@@ -289,7 +289,7 @@ ul,ol{
 
 /* 기능 */
 
-.smenu{
+.smenu,sibx{
     height: 0px;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.164);
@@ -308,7 +308,10 @@ ul,ol{
 
 .l1:hover .smenu, .l2:hover .smenu, .l3:hover .smenu,
 .l4:hover .smenu, .l5:hover .smenu, .l6:hover .smenu,
-.l7:hover .smenu, .l8:hover .smenu{
+.l7:hover .smenu, .l8:hover .smenu,
+.l1:hover .sibx, .l2:hover .sibx, .l3:hover .sibx,
+.l4:hover .sibx, .l5:hover .sibx, .l6:hover .sibx,
+.l7:hover .sibx, .l8:hover .sibx{
     height: 300px;
 }
 
@@ -318,6 +321,15 @@ ul,ol{
     display: block;
 }
 
+.sibx{
+    /* 플렉스박스 */
+    display: flex;
+    /* 크기가 넘치면 아래로 내려감 */
+    flex-wrap: wrap;
+
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
 
 
