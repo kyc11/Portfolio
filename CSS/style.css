@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body *{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 ul,ol{
@@ -278,8 +278,7 @@ ul,ol{
     width: 1580px;
     height: 600px;
 }
-{
-}
+
 
 
 
@@ -289,7 +288,7 @@ ul,ol{
 
 /* 기능 */
 
-.smenu,sibx{
+.smenu{
     height: 0px;
     overflow: hidden;
     background: #fff;
@@ -331,7 +330,13 @@ ul,ol{
 }
 
 body{
-    background: rgba(0, 0, 0, 0.207);
+    /* background: rgba(0, 0, 0, 0.207); */
+}
+
+.l1:hover .s1, .l2:hover .s2, .l3:hover .s3,
+.l4:hover .s4, .l5:hover .s5, .l6:hover .s6,
+.l7:hover .s7, .l8:hover .s8{
+    color: #767676;
 }
 
 
