@@ -448,14 +448,6 @@ ul,ol{
     padding-left: 8px;
 }
 
-.lp{
-    display: inline-block;
-}
-
-.ls{
-    display: inline-block;
-}
-
 .cull2 p,
 .cull2 img{
     transition: .2s;
