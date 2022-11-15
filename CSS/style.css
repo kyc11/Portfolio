@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body *{
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 ul,ol{
@@ -274,9 +274,12 @@ ul,ol{
     overflow: hidden;
 }
 
+#slide::before{
+
+}
+
 #slide{
     width: 1580px;
-    height: 600px;
 }
 
 
