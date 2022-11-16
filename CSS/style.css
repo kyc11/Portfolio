@@ -77,6 +77,10 @@ ul,ol{
     position: relative;
 }
 
+.poa{
+    position: absolute;
+}
+
 /* 상단영역 */
 
 /* DUDCO로고 */
@@ -250,6 +254,8 @@ ul,ol{
 
 
 
+
+
 .cul{
     position: absolute;
     white-space: nowrap;
@@ -369,8 +375,8 @@ ul,ol{
 }
 
 #slide{
-    width: 1580px;
-    height: 600px;
+    max-width: 1580px;
+    max-height: 600px;
 }
 
 
