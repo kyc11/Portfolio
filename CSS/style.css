@@ -17,65 +17,42 @@ ul,ol{
 }
 
 .ibx{
-    /* 플렉스박스 */
     display: flex;
-    /* 크기가 넘치면 아래로 내려감 */
     flex-wrap: wrap;
-
     max-width: 1280px;
     margin: 0 auto;
-    /* outline: 1px dashed gray; */
-    /* 임시높이 */
     min-height: 88px;
 }
 
 .mbx{
-    /* 플렉스박스 */
     display: flex;
-    /* 크기가 넘치면 아래로 내려감 */
     flex-wrap: wrap;
-
     max-width: 1580px;
     margin: 0 auto;
-    /* outline: 1px dashed gray; */
-    /* 임시높이 */
     min-height: 90px;
 }
 
 .ebx{
     display: flex;
-    /* 크기가 넘치면 아래로 내려감 */
     flex-wrap: wrap;
-
     max-width: 1280px;
     margin: 0 auto;
-    /* outline: 1px dashed gray; */
-    /* 임시높이 */
     min-height: 50px;
 }
 
 .hbx{
     display: flex;
-    /* 크기가 넘치면 아래로 내려감 */
     flex-wrap: wrap;
-
     max-width: 1280px;
     margin: 0 auto;
-    /* outline: 1px dashed gray; */
-    /* 임시높이 */
     min-height: 57px;
 }
 
 .ibx2{
-    /* 플렉스박스 */
     display: flex;
-    /* 크기가 넘치면 아래로 내려감 */
     flex-wrap: wrap;
-
     max-width: 1920px;
     margin: 0 auto;
-    /* outline: 1px dashed gray; */
-    /* 임시높이 */
     min-height: 88px;
 }
 
@@ -110,6 +87,7 @@ ul,ol{
     
 }
 
+/* 검색 네모박스 위치설정 */
 .tbx ul li:nth-child(2){
     padding-left: 10%;
     position: relative;
@@ -147,9 +125,9 @@ ul,ol{
     height: 20px;
 }
 
+/* 메뉴 전체박스 */
 .sss{
     outline: 2px solid #dbdbdb;
-    position: relative;
 }
 
 /* 사이드박스 */
@@ -251,114 +229,17 @@ ul,ol{
 }
 
 
-
-
-
-
-
-/* 기능 */
-
-.smenu{
-    height: 0px;
-    overflow: hidden;
-    background: white;
-    transition: all .5s;
-}
-
-.smenu {
-    position: absolute;
-    width: 1580px;
-    left: -150px;
-    z-index: 1;
-    border-radius: 0 0 50px 50px;
-}
-
-.ll1, .ll2, .ll3, .ll4, .ll5, .ll6, .ll7, .ll8{
-    display: none;
-}
-
-.l1:hover .smenu, .l2:hover .smenu, .l3:hover .smenu,
-.l4:hover .smenu, .l5:hover .smenu, .l6:hover .smenu,
-.l7:hover .smenu, .l8:hover .smenu{
-    height: 450px;
-}
-
-.l1:hover .ll1, .l2:hover .ll2, .l3:hover .ll3,
-.l4:hover .ll4, .l5:hover .ll5, .l6:hover .ll6,
-.l7:hover .ll7, .l8:hover .ll8{
-    display: block;
-}
-
-.sibx{
-    /* 플렉스박스 */
-    display: flex;
-    /* 크기가 넘치면 아래로 내려감 */
-    flex-wrap: wrap;
-    
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
 .sibx li{
     font-size: 21px;
-}
-
-.sibx li:hover>a{
-    color: #767676;
-}
-
-.l1:hover .s1, .l2:hover .s2, .l3:hover .s3,
-.l4:hover .s4, .l5:hover .s5, .l6:hover .s6,
-.l7:hover .s7, .l8:hover .s8{
-    color: #767676;
 }
 
 .sibx li:first-child{
     margin-top: 25px;
 }
 
-.bbxx{
-    display: none;
-    width: 350px;
-    height: 400px;
-    background-color: #000;
-    opacity: 0.1;
-    border-radius: 30px;
-}
-
-.sbxx{
-    display: none;
-    width: 185px;
-    height: 185px;
-    background: rgba(0, 0, 0, 0.219);
-    border-radius: 30px;
-}
-
-.l1:hover .bbxx, .l1:hover .sbxx, .l3:hover .bbxx, .l3:hover .sbxx,
-.l4:hover .bbxx, .l4:hover .sbxx, .l5:hover .bbxx, .l5:hover .sbxx, 
-.l6:hover .bbxx, .l6:hover .sbxx, .l8:hover .bbxx, .l8:hover .sbxx{
-    display: block;
-}
-
-.bbbb, .sbbb{
-    padding-left: 18px;
-    transition: padding .5s;
-}
-
 .sbbb li:nth-child(2){
     padding-top: 30px;
 }
-
-.l1:hover .bbbb, .l1:hover .sbbb, .l3:hover .bbbb, .l3:hover .sbbb, 
-.l4:hover .bbbb, .l4:hover .sbbb, .l5:hover .bbbb, .l5:hover .sbbb, 
-.l6:hover .bbbb, .l6:hover .sbbb, .l8:hover .bbbb, .l8:hover .sbbb{
-    padding-left: 30px;
-}
-
-
-
-
-
 
 
 
@@ -480,20 +361,8 @@ ul,ol{
     padding-top: 8px;
 }
 
-.cull li:hover p:nth-child(2){
-    transform:scale(1.1)
-}
-
-.cull li:hover p:nth-child(3){
-    transform:scale(1.1)
-}
 
 
-
-
-
-
-/* 기능 */
 #slide, #slide2{
     display: flex;
     overflow: hidden;
@@ -589,22 +458,6 @@ ul,ol{
     overflow: hidden;
 }
 
-.cull2 li:hover img{
-    scale: 1.1;
-}
-
-.cull2 li:hover p:nth-child(2),
-.cull2 li:hover p:nth-child(3){
-    transform:scale(1.1)
-}
-
-.cull2 li:hover p:nth-child(4){
-    transform:scale(1.1)
-}
-
-.cull2 li:hover p:nth-child(4) span{
-    transform:scale(1.1)
-}
 
 
 
@@ -803,15 +656,7 @@ ul,ol{
     color: #000;
 }
 
-.fcbx2:hover,
-.fcbx3:hover{
-    outline: 1px solid #000;
-}
 
-.fcbx2:hover p,
-.fcbx3:hover p{
-    color: #000;
-}
 
 .cont2 .cull2{
     padding-top: 34px;
@@ -907,14 +752,6 @@ ul,ol{
     color: #000;
 }
 
-/* 기능 */
-.lbx:hover .iibx>span img{
-    scale: 1.1;
-}
-
-.lbx:hover .iibx p{
-    transform:scale(1.1)
-}
 
 
 
@@ -1099,12 +936,9 @@ ul,ol{
     padding-left: 10px;
     overflow: hidden;
     height: 0;
-    transition: height .5s ease-in;
 }
 
-.foss2:hover .infos ol li{
-    height: 100px;
-}
+
 /* 고객님의 안전거래... */
 .info2 p{
     font-family: 'Noto Sans KR', sans-serif;
