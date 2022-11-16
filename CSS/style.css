@@ -81,6 +81,14 @@ ul,ol{
     position: absolute;
 }
 
+.on{
+    display: block;
+}
+
+.off{
+    display: none;
+}
+
 /* 상단영역 */
 
 /* DUDCO로고 */
@@ -232,7 +240,6 @@ ul,ol{
     padding: 0;
 }
 
-
 .sibx li{
     font-size: 21px;
 }
@@ -295,12 +302,12 @@ ul,ol{
     display: flex;
 }
 
-.scont .cul2 img{
+.cul2 img{
     width: 22px;
     height: 22px;
 }
 
-.scont .cul2{
+.cul2{
     display: flex;
     position: absolute;
     right: 9.5%;
@@ -652,15 +659,6 @@ ul,ol{
     color: #767676;
 }
 
-.fcbx2.on{
-    outline: 1px solid #000;
-    color: #000;
-}
-
-.fcbx3.on{
-    outline: 1px solid #000;
-    color: #000;
-}
 
 
 

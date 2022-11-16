@@ -146,9 +146,22 @@
     transform:scale(1.1)
 }
 
+.fcbx2.on{
+    outline: 1px solid #000;
+}
 
+/* 카테고리 기능구현 */
+.fcbx2.on p{
+    color: #000;
+}
 
+.fcbx3.on{
+    outline: 1px solid #000;
+}
 
+.fcbx3.on p{
+    color: #000;
+}
 
 
 

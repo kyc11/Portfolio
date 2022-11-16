@@ -24,11 +24,12 @@
     background: url(../rr/img/포폴\ 메인\ 2.jpg) no-repeat center/cover;
     width: 1580px;
     height: 600px;
+    left: 100%;
 }
 
 .bgbx3{
     background: url(../rr/img/포폴\ 메인\ 3.jpg) no-repeat center/cover;
     width: 1580px;
     height: 600px;
-    left: 100%;
+    left: 200%;
 }
