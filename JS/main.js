@@ -4,6 +4,10 @@ window.addEventListener('DOMContentLoaded',()=>{
     console.log("로딩완료!")
 });
 
-const Mbg = document.querySelectorAll("#slide ");
+const lbtn = document.querySelector(".lbtn");
 
+lbtn.onclick(){}
 
+function lbc(){
+    console.log("왼쪽버튼!")
+}
