@@ -6,8 +6,11 @@ window.addEventListener('DOMContentLoaded',()=>{
 
 const lbtn = document.querySelector(".lbtn");
 
-lbtn.onclick(){}
-
 function lbc(){
     console.log("왼쪽버튼!")
 }
+
+lbtn.addEventListener("click", lbc());
+
+
+
