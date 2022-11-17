@@ -2,13 +2,11 @@
 
 $(()=>{
     
-    const lbtn = $(".lbtn");
-    
-    function lbf(){
-        console.log("왼쪽버튼!") 
-    };
+    // const lbtn = $(".lbtn");
 
-    $(lbtn).click().lbf()
+    $(".lbtn").click(function(){
+        console.log("ddd")
+    })
 
 
 
