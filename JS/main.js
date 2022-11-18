@@ -181,9 +181,6 @@ function loadFn(){
         clearInterval(autoI);
         // 2. 타임아웃 지우기(실행쓰나미 방지!)
         clearTimeout(autoT);
-        // 3. 일정시간 후 다시 인터발 호출!
-        autoT = setTimeout(slideAuto, 5000);
     } /////// clearAuto함수 ////////
 
-    
 }

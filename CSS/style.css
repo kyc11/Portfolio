@@ -382,7 +382,7 @@ ul,ol{
 
 
 
-#slide, #slide2{
+#slide{
     display: flex;
 }
 
@@ -400,7 +400,20 @@ ul,ol{
     flex-basis: 100%;
 }
 
+#slide2{
+    position: relative;
+}
 
+.slidee{
+    height: 276px;
+    width: 1280px;
+}
+
+#slide2 li{
+    position: absolute;
+    opacity: 0;
+    transition: opacity .3s;
+}
 
 
 
@@ -527,6 +540,7 @@ ul,ol{
     background: #e9e9e9;
     height: 1052px;
     position: relative;
+    overflow: hidden;
 }
 
 .mgz h2{
