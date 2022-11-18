@@ -15,35 +15,31 @@
 
 /* 메인 이미지 */
 .bgbx{
-    background: url(../rr/img/포폴\ 메인\ 1.jpg) no-repeat 100%/110%;
+    background: url(../rr/img/포폴\ 메인\ 1.jpg) no-repeat;
     padding-top: 38%;
     width: 100%;
 }
 
 .bgbx2{
-    background: url(../rr/img/포폴\ 메인\ 2.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 메인\ 2.jpg) no-repeat;
     padding-top: 38%;
     width: 100%;
-    left: 100%;
 }
 
 .bgbx3{
-    background: url(../rr/img/포폴\ 메인\ 3.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 메인\ 3.jpg) no-repeat;
     padding-top: 38%;
     width: 100%;
-    left: 200%;
 }
 
 .bgbx4{
-    background: url(../rr/img/포폴\ 메인\ 4.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 메인\ 4.jpg) no-repeat;
     padding-top: 38%;
     width: 100%;
-    left: 300%;
 }
 
 .bgbx5{
-    background: url(../rr/img/포폴\ 메인\ 5.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 메인\ 5.jpg) no-repeat;
     padding-top: 38%;
     width: 100%;
-    left: 400%;
 }
