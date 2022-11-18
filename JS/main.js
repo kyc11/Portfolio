@@ -20,8 +20,12 @@ function loadFn(){
 
     /* 페이지 숫자 */
     const ppnum = document.querySelector(".pnum")
-    
 
+    /* 재생버튼 */
+    const play = document.querySelector(".play")
+    
+    /* 멈춤버튼 */
+    const stop = document.querySelector(".stop2")
 
 
 
@@ -86,7 +90,7 @@ function loadFn(){
 
 
 
-    /* 순번찍기 */
+    /* 순번찍기 페이지표시 */
     const pnum = idx => {
         let pnum2 = slide.querySelectorAll("div")[idx]
         .getAttribute("data-seq")
@@ -110,8 +114,18 @@ function loadFn(){
         console.log(pnum2)
     }
 
-
-    /* 페이지번호 표시 */
+    play.onclick = () => {
+        play.classList.add("on")
+        stop.classList.remove("on")
+        
+        stop.onclick = () => {
+            stop.classList.add("on")
+            play.classList.remove("on")
+        }
+        
+        
+    }
     
 
+    
 }

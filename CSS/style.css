@@ -91,10 +91,6 @@ ul,ol{
 }
 
 .on{
-    display: block;
-}
-
-.off{
     display: none;
 }
 
@@ -342,6 +338,7 @@ ul,ol{
     height: 276px;
     background: rgba(0, 0, 0, 0.238);
 }
+
 
 
 
@@ -1037,10 +1034,6 @@ ul,ol{
 
 .top{
     height: 88px;
-}
-
-.stop{
-    height: 55px;
 }
 
 .cont{
