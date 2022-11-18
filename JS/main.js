@@ -51,7 +51,7 @@ function loadFn(){
             slide.style.transition = "none"
         },1000)
         
-        pnum(1);
+        chgIndic(1);
         
         
     };
@@ -84,48 +84,106 @@ function loadFn(){
             slide.style.transition = "1s ease-in-out";
         }, 10);
 
-        pnum(0);
+        chgIndic(0);
     }
 
 
 
 
     /* 순번찍기 페이지표시 */
-    const pnum = idx => {
-        let pnum2 = slide.querySelectorAll("div")[idx]
-        .getAttribute("data-seq")
+    const chgIndic = (idx) => {
+        // idx - 대상슬라이드 순번
+        // 1. 현재 슬라이드 순번 알아오기!
+        // cseq -> current sequence number(현재 순번)
+        let pnum = slide
+            .querySelectorAll("div")
+            [idx] // 대상 div
+            .getAttribute("data-seq"); // "data-seq"속성값
+        // getAttribute(속성명) -> 속성값 읽어오는 JS내장함수
 
-        if(pnum2 == 1){
+        if(pnum == 1){
             ppnum.innerHTML = "1"
         }
-        else if(pnum2 == 2){
+        else if(pnum == 2){
             ppnum.innerHTML = "2"
         }
-        else if(pnum2 == 3){
+        else if(pnum == 3){
             ppnum.innerHTML = "3"
         }
-        else if(pnum2 == 4){
+        else if(pnum == 4){
             ppnum.innerHTML = "4"
         }
-        else if(pnum2 == 5){
+        else if(pnum == 5){
             ppnum.innerHTML = "5"
         }
         
-        console.log(pnum2)
+        console.log("순번:",pnum);
     }
 
     play.onclick = () => {
         play.classList.add("on")
         stop.classList.remove("on")
+        clearAuto();
         
         stop.onclick = () => {
             stop.classList.add("on")
             play.classList.remove("on")
+            slideAuto();
         }
         
         
     }
     
+    let autoI;
+    // 타임아웃용 변수
+    let autoT;
+
+    // 자동넘기기 /////
+    // 인터발함수를 지우려면 변수에 넣고
+    // clearInterval(변수) 해야함!!!
+
+    /******************************* 
+        함수명: slideAuto
+        기능: 슬라이드 인터발 호출
+    *******************************/
+    function slideAuto() {
+        autoI = setInterval(() => {
+            // 오른쪽버튼 클릭시 이동코드와 동일함!!! /////////
+            slide.style.left = "-100%";
+            slide.style.transition = "1s ease-in-out";
+            // 1초후 맨앞li 잘라서 맨뒤로 이동!
+            setTimeout(() => {
+                // 1. 맨앞li 잘라서 맨뒤로 이동!
+                slide.appendChild(slide.querySelectorAll("div")[0]);
+                // 2. left값 0으로 초기화!
+                slide.style.left = "0";
+                /* 3. 트랜지션 없애기 */
+                slide.style.transition = "none";
+            }, 1000);
+
+            // 블릿변경함수 호출!
+            // -> 오른쪽버튼은 두번째 슬라이드가 주인공!
+            chgIndic(1);
+            ///////////////////////////////////////////
+        }, 3000);
+    } //////// slideAuto 함수 //////////
+
+    // 인터발함수 최초호출!
+    slideAuto();
+
+    /*********************************** 
+        함수명: clearAuto
+        기능: 인터발지우기,타임아웃셋팅
+    ***********************************/
+    function clearAuto() {
+        // console.log("인터발지워!!!");
+        // 1. 인터발 지우기
+        clearInterval(autoI);
+        // 2. 타임아웃 지우기(실행쓰나미 방지!)
+        clearTimeout(autoT);
+        // 3. 일정시간 후 다시 인터발 호출!
+        autoT = setTimeout(slideAuto, 5000);
+    } /////// clearAuto함수 ////////
 
     
 }
