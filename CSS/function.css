@@ -2,7 +2,9 @@
 
 /* 기능구현 css */
 
-
+.sbx li:first-child:hover .sbx>ul{
+    height: 500px;
+}
 
 
 
