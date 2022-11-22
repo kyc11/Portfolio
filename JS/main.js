@@ -53,7 +53,10 @@ function loadFn(){
         
         chgIndic(1);
         
-        
+        clearAuto()
+        setTimeout(() => {
+            slideAuto()
+        },3000);
     };
 
 
@@ -85,6 +88,13 @@ function loadFn(){
         }, 10);
 
         chgIndic(0);
+
+        clearAuto();
+
+        setTimeout(() => {
+            slideAuto()
+        },3000);
+    
     }
 
 
@@ -120,20 +130,28 @@ function loadFn(){
         console.log("순번:",pnum);
     }
 
-    play.onclick = () => {
-        play.classList.add("on")
-        stop.classList.remove("on")
-        clearAuto();
+        function psf(){
+            play.onclick = () => {
+                play.classList.add("on")
+                stop.classList.remove("on")
+                clearAuto();
+            }
         
-        stop.onclick = () => {
-            stop.classList.add("on")
-            play.classList.remove("on")
-            slideAuto();
+            
+        
+            stop.onclick = () => {
+                stop.classList.add("on")
+                play.classList.remove("on")
+                slideAuto();
+            }
         }
         
-        
-    }
+        psf()
+            
     
+    
+    
+
     let autoI;
     // 타임아웃용 변수
     let autoT;

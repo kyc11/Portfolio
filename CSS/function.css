@@ -3,6 +3,16 @@
 /* 기능구현 css */
 
 
+
+
+
+
+
+
+
+
+
+
 /* 서브메뉴 기능 */
 
 /* 서브메뉴 겉박스 구성 */
@@ -90,7 +100,7 @@
 .l1:hover .bbbb, .l1:hover .sbbb, .l3:hover .bbbb, .l3:hover .sbbb, 
 .l4:hover .bbbb, .l4:hover .sbbb, .l5:hover .bbbb, .l5:hover .sbbb, 
 .l6:hover .bbbb, .l6:hover .sbbb, .l8:hover .bbbb, .l8:hover .sbbb{
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 /* 420px 박스 기능 */
