@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body *{
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 ul,ol{
@@ -176,24 +176,34 @@ ul,ol{
     height: 38px;
 }
 
-.sbx ul{
+.sbxm{
     margin-top: 10px;
     width: 300px;
-    height: 0px;
+    height: 0;
     background-color: #fff;
     left: -130px;
     z-index: 1;
     border-radius: 30px;
     overflow: hidden;
-    transition: .8s ease-out;
+    transition: .2s ease-out;
 }
 
-.sbx ul li{
+.sbxm p{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
+.sbxm p:first-child{
+    margin-top: 15px;
+}
+
+.sbx li:first-child:hover .sbxm,
+.sbx li:nth-child(2):hover .sbxm,
+.sbx li:nth-child(3):hover .sbxm,
+.sbx li:last-child:hover .sbxm{
+    height: 300px;
+}
 
 
 /* 서브메뉴1 2 3 속성설정*/

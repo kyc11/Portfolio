@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", loadFn2);
 
 function loadFn2(){
 
-    console.log("로딩완료!2");
+    // console.log("로딩완료!2");
 
     /* #slide2 li f */
     const l1 = document.querySelector("#slide2 li:first-child");

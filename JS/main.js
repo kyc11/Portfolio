@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded",loadFn);
 
 function loadFn(){
 
-    console.log("로딩완료!")
+    // console.log("로딩완료!")
 
     /* 잠금변수 */
     let prot = 0;
@@ -36,7 +36,7 @@ function loadFn(){
 
     /* 오른쪽버튼 클릭시 함수 */
     function rbc(){
-        console.log("오른쪽버튼")
+        // console.log("오른쪽버튼")
 
         if(prot)return;
         prot = 1;
@@ -70,7 +70,7 @@ function loadFn(){
 
     /* 왼쪽버튼 클릭시 함수 */
     function lbc(){
-        console.log("왼쪽버튼")
+        // console.log("왼쪽버튼")
 
         if(prot)return;
         prot = 1;
@@ -127,7 +127,7 @@ function loadFn(){
             ppnum.innerHTML = "5"
         }
         
-        console.log("순번:",pnum);
+        // console.log("순번:",pnum);
     }
 
         function psf(){
