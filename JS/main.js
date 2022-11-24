@@ -52,12 +52,17 @@ function loadFn(){
         },1000)
         
         chgIndic(1);
+
+        clearAuto();
         
-        clearAuto()
+        play.click();
 
         setTimeout(() => {
-            slideAuto()
-        },3000);
+            stop.click();
+        },1000);
+
+        
+
     };
 
 
@@ -91,10 +96,12 @@ function loadFn(){
 
         chgIndic(0);
 
-        pf();
+        clearAuto();
+
+        play.click();
 
         setTimeout(() => {
-            slideAuto()
+            stop.click();
         },3000);
     
     }
@@ -134,7 +141,7 @@ function loadFn(){
 
         function pf(){
             play.onclick = () => {
-                console.log("pf")
+                // console.log("pf")
                 play.classList.add("on")
                 stop.classList.remove("on")
                 clearAuto();
@@ -144,7 +151,7 @@ function loadFn(){
             
         function sf(){
             stop.onclick = () => {
-                console.log("sf")
+                // console.log("sf")
                 stop.classList.add("on")
                 play.classList.remove("on")
                 slideAuto();

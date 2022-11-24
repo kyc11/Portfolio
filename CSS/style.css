@@ -198,13 +198,6 @@ ul,ol{
     margin-top: 15px;
 }
 
-.sbx li:first-child:hover .sbxm,
-.sbx li:nth-child(2):hover .sbxm,
-.sbx li:nth-child(3):hover .sbxm,
-.sbx li:last-child:hover .sbxm{
-    height: 300px;
-}
-
 
 /* 서브메뉴1 2 3 속성설정*/
 .sme,.sme2,.sme3{
@@ -992,14 +985,25 @@ ul,ol{
     margin-right: 30px;
 }
 
-.infos ol li{
+.sfoss, .sfoss2{
     position: relative;
     z-index: 1;
-    line-height: 30px;
-    text-align: left;
-    padding-left: 10px;
+    margin-top: -18px;
+    height: 0px;
+    transition: height .2s;
     overflow: hidden;
-    height: 0;
+}
+
+.onn{
+    height: 192px;
+}
+
+.onn2{
+    height: 160px;
+}
+
+.sfoss p, .sfoss2 p{
+    line-height: 32px;
 }
 
 
