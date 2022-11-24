@@ -54,6 +54,7 @@ function loadFn(){
         chgIndic(1);
         
         clearAuto()
+
         setTimeout(() => {
             slideAuto()
         },3000);
@@ -82,6 +83,7 @@ function loadFn(){
         slide.style.left = "-100%";
         slide.style.transition = "none";
 
+        
         setTimeout(() => {
             slide.style.left = "0";
             slide.style.transition = "1s ease-in-out";
@@ -89,7 +91,7 @@ function loadFn(){
 
         chgIndic(0);
 
-        clearAuto();
+        pf();
 
         setTimeout(() => {
             slideAuto()
@@ -130,24 +132,28 @@ function loadFn(){
         // console.log("순번:",pnum);
     }
 
-        function psf(){
+        function pf(){
             play.onclick = () => {
+                console.log("pf")
                 play.classList.add("on")
                 stop.classList.remove("on")
                 clearAuto();
             }
+        }
         
             
-        
+        function sf(){
             stop.onclick = () => {
+                console.log("sf")
                 stop.classList.add("on")
                 play.classList.remove("on")
                 slideAuto();
             }
         }
         
-        psf()
-            
+        pf();
+
+        sf();
     
     
     

@@ -175,8 +175,12 @@
     color: #000;
 }
 
-.gbx:hover .hsbx .b7g1{
-    scroll: 1.1;
+.por:hover .b7g1{
+    scale: 1.1;
+}
+
+.l2bx:hover .b7g2{
+    scale: 1.1;
 }
 
 
