@@ -827,9 +827,12 @@ ul,ol{
     width: 635px;
     height: 420px;
     background: rgba(0, 0, 0, 0.101);
+    overflow: hidden;
 }
 
 .gbx{
+    position: relative;
+    z-index: 1;
     display: block;
     width: 635px;
     height: 420px;
@@ -854,6 +857,7 @@ ul,ol{
 
 .lpbx{
     position: absolute;
+    z-index: 1;
     bottom: 0;
     margin-left: 32px;
     margin-bottom: 32px;
