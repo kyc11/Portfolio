@@ -20,12 +20,12 @@ function loadFn4(){
     psbt.onclick = () => {
         // console.log("dqwdqw")
         sfs.classList.add("onn")
-
+        if()
     }
 
-    sfs2.onclick = () => {
+    psbt2.onclick = () => {
         // console.log("dqwdqw2")
-        sfs2.classList.add("onn")
+        sfs2.classList.add("onn2")
 
     }
     
