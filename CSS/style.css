@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 body *{
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 ul,ol{
@@ -578,13 +578,14 @@ ul,ol{
     position: relative;
     display: flex;
     width: 1920px;
-    height: 680px;
-    overflow: hidden;
+    height: 490px;
+    margin-top: 187px;
+    /* overflow: hidden; */
 }
 
 .mibx div{
     position: absolute;
-    transition: left .3s;
+    transition: all .3s;
 }
 
 .mibx div:nth-child(1),
@@ -593,7 +594,7 @@ ul,ol{
 .mibx div:nth-child(5),
 .mibx div:nth-child(6),
 .mibx div:nth-child(7){
-    top: 27%;
+    top: 0;
 }
 
 .mibx div:nth-child(1){
@@ -608,7 +609,7 @@ ul,ol{
     left: 5.8%;
 }
 .mibx div:nth-child(4){
-    top: 6%;
+    top: -32%;
     left: calc(50% - 260px);
 }
 
