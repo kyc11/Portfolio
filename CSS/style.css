@@ -32,6 +32,12 @@ ul,ol{
     min-height: 90px;
 }
 
+.mbx::before{
+    content: '';
+    display: block;
+    padding-top: 53.6%;
+}
+
 .ebx{
     display: flex;
     flex-wrap: wrap;
@@ -415,7 +421,6 @@ ul,ol{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
 }
 
 #slide div{
@@ -1092,9 +1097,9 @@ ul,ol{
     height: 2480px;
 }
 
-.scont{
+/* .scont{
     height: 848px;
-}
+} */
 
 .info{
     height: 57px;
