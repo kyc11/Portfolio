@@ -1,8 +1,45 @@
 @charset "utf-8";
 
+/* 1580px이하 미디어쿼리 */
+@media screen and (max-width:1580px){
+    /* 메인 사진 크기 변경 */
+}
+
+
+/* 1550px이하 미디어쿼리 */
+@media screen and (max-width:1550px){
+    .sbxm{
+        display: none;
+    }
+}
+
+/* 1300px이하 미디어쿼리 */
+@media screen and (max-width:1300px){
+    .ibx{
+        max-width: 1180px;
+    }
+    .ebx{
+        max-width: 1180px;
+    }
+}
+
 /* 1280px이하 미디어쿼리 */
 @media screen and (max-width:1280px){
     .top input {
         width: 430px;
+    }
+}
+
+/* 1180px이하 미디어쿼리 */
+@media screen and (max-width:1180px){
+    .top input {
+        width: 380px;
+    }
+}
+
+/* 1080px이하 미디어쿼리 */
+@media screen and (max-width:1080px){
+    .top input {
+        width: 330px;
     }
 }

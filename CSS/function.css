@@ -2,10 +2,6 @@
 
 /* 기능구현 css */
 
-.sbx li:first-child:hover .sbx>ul{
-    height: 500px;
-}
-
 .sbx li:first-child:hover .sbxm,
 .sbx li:nth-child(2):hover .sbxm,
 .sbx li:nth-child(3):hover .sbxm,
@@ -32,7 +28,7 @@
     height: 0px;
     overflow: hidden;
     background: #fff;
-    transition: all .5s;
+    transition: height .5s;
 }
 
 /* 서브메뉴 안박스 구성 */
