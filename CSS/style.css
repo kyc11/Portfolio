@@ -563,7 +563,7 @@ ul,ol{
     background: #e9e9e9;
     height: 1052px;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .mgz h2{
@@ -579,11 +579,12 @@ ul,ol{
     display: flex;
     width: 1920px;
     height: 680px;
+    overflow: hidden;
 }
 
 .mibx div{
     position: absolute;
-    transition: 3s;
+    transition: left .3s;
 }
 
 .mibx div:nth-child(1),
@@ -607,20 +608,20 @@ ul,ol{
     left: 5.8%;
 }
 .mibx div:nth-child(4){
-    bottom: 0;
+    top: 6%;
     left: calc(50% - 260px);
 }
 
 .mibx div:nth-child(5){
-    right: 6.9%;
+    left: 78.8%;
 }
 
 .mibx div:nth-child(6){
-    right: -8.3%;
+    left: 94%;
 }
 
 .mibx div:nth-child(7){
-    right: -23.5%;
+    left: 109%
 }
 
 .lbtn2, .rbtn2{

@@ -37,11 +37,13 @@
 .mibx img{
     width: 280px;
     height: 352px;
+    transition: .3s;
 }
 
 .mibx div:nth-child(4) img{
     width: 500px;
     height: 640px;
+    transition: .3s;
 }
 
 
