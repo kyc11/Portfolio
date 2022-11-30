@@ -15,12 +15,7 @@
 
 /* 1300px이하 미디어쿼리 */
 @media screen and (max-width:1300px){
-    .ibx{
-        max-width: 1180px;
-    }
-    .ebx{
-        max-width: 1180px;
-    }
+    
 }
 
 /* 1280px이하 미디어쿼리 */
