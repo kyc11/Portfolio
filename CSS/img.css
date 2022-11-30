@@ -16,7 +16,6 @@
 /* 메인 이미지 */
 .bgbx{
     background: url(../rr/img/포폴\ 메인\ 1.jpg) no-repeat center/cover;
-    width: 100%;
 }
 
 .bgbx2{
@@ -65,6 +64,92 @@
 
 
 
+
+.b2g1{
+    background: url(../rr/img/포폴\ 2메인\ 1.jpg) no-repeat center/cover;
+}
+
+.b2g2{
+    background: url(../rr/img/포폴\ 2메인\ 2.jpg) no-repeat center/cover;
+}
+
+.b2g3{
+    background: url(../rr/img/포폴\ 2메인\ 3.jpg) no-repeat center/cover;
+}
+
+.b2g1, .b2g2, .b2g3{
+    position: absolute;
+    width: 100%;
+    transition: opacity .3s;
+}
+
+/* 비율유지 박스 */
+
+.b2g1::before{
+    content: '';
+    display: block;
+    padding-top: 21.5%;
+}
+
+.b2g2::before{
+    content: '';
+    display: block;
+    padding-top: 21.5%;
+}
+
+.b2g3::before{
+    content: '';
+    display: block;
+    padding-top: 21.5%;
+}
+
+.slidee::before{
+    content: '';
+    display: block;
+    padding-top: 21.5%;
+    
+}
+
+
+
+
+
+
+.b3g1{
+    background: url(../rr/img/포폴\ 3메인\ 1.jpg) no-repeat center/cover;
+}
+
+.b3g1::before{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.bg3o{
+    width: 100%;
+}
+
+
+
+.b4g1{
+    background: url(../rr/img/포폴\ 4메인\ 1.jpg) no-repeat center/cover;
+}
+
+.b4g1::before{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.bg4o{
+    width: 100%;
+    position: absolute;
+    top: 10%
+}
+
+
+
+
 .mibx img{
     width: 280px;
     height: 352px;
@@ -78,6 +163,25 @@
 }
 
 
+
+
+.b6g1{
+    background: url(../rr/img/포폴\ 6메인\ 1.jpg) no-repeat center/cover;
+    max-width: 314px;
+}
+
+.b6g1::before{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+.b6g1o{
+    position: absolute;
+    width: 49.1%;
+    left: 25%;
+    top: 17%;
+}
 
 
 

@@ -108,15 +108,15 @@
 
 /* 420px 박스 기능 */
 /* 호버시 글자, 이미지 커짐 */
-.cull li:hover p:nth-child(2){
+.cull .bg3i:hover p:nth-child(2){
     transform:scale(1.1)
 }
 
-.cull li:hover p:nth-child(3){
+.cull .bg3i:hover p:nth-child(3){
     transform:scale(1.1)
 }
 
-.cull2 li:hover img{
+.cull2 .bg3i:hover img{
     scale: 1.1;
 }
 
