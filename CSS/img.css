@@ -187,15 +187,34 @@
 
 .b7g1{
     background: url(../rr/img/포폴\ 7메인\ 1.jpg) no-repeat center/cover;
-    width: 100%;
-    height: 100%;
+    max-width: 635px;
     transition: scale .2s;
 }
 
 .b7g2{
     background: url(../rr/img/포폴\ 7메인\ 2.png) no-repeat center/cover;
-    width: 100%;
-    height: 100%;
+    max-width: 635px;
     transition: scale .2s;
 }
 
+.bg7o{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+.b7g1::before{
+    content: '';
+    display: block;
+    padding-top: 66.1%;
+}
+
+.b7g2::before{
+    content: '';
+    display: block;
+    padding-top: 66.1%;
+}
