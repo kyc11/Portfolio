@@ -1120,19 +1120,14 @@ ul,ol{
     max-height: 1573px;
 }
 
-.cd{
+/* .cd{
     height: 100%;
-    width: auto;
-}
-
-.cont2{
-    
-}
+} */
 
 .cont2::before{
     content: '';
     display: block;
-    padding-top: 193.75%;
+    padding-top: 13.35%;
 }
 
 /* .scont{
@@ -1146,6 +1141,10 @@ ul,ol{
 
 .info2{
     height: 315px;
+}
+
+.hotl{
+    margin-top: 171px;
 }
 
 .col-1 {width: 8.33%;}

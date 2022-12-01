@@ -108,11 +108,11 @@
 
 /* 420px 박스 기능 */
 /* 호버시 글자, 이미지 커짐 */
-.cull .bg3i:hover p:nth-child(2){
+.bg3o:hover p:nth-child(2){
     transform:scale(1.1)
 }
 
-.cull .bg3i:hover p:nth-child(3){
+.bg3o:hover p:nth-child(3){
     transform:scale(1.1)
 }
 
@@ -122,17 +122,21 @@
 
 /* 314px 박스 기능 */
 /* 호버시 글자, 이미지 커짐 */
-.cull2 li:hover p:nth-child(2),
-.cull2 li:hover p:nth-child(3){
+.cuno:hover p:nth-child(2),
+.cuno:hover p:nth-child(3){
     transform:scale(1.1)
 }
 
-.cull2 li:hover p:nth-child(4){
+.cuno:hover p:nth-child(4){
     transform:scale(1.1)
 }
 
-.cull2 li:hover p:nth-child(4) span{
+.cuno:hover p:nth-child(4) span{
     transform:scale(1.1)
+}
+
+.cuno:hover .b4g1{
+    scale: 1.1;
 }
 
 
