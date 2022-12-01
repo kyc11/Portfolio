@@ -140,6 +140,19 @@
 }
 
 
+
+/* PRIMIUM STYLE 쪽 기능구현 */
+/* 호버시 폰트, 이미지커짐 */
+.lbx:hover .b6g1{
+    scale: 1.1;
+}
+
+.lbx:hover .b6g1o p{
+    transform:scale(1.1)
+}
+
+/* 카테고리 기능구현 */
+
 /* HOT KEYWORD 쪽 기능구현 */
 /* 호버시 바깥선 표시 */
 .fcbx2:hover,
@@ -153,38 +166,11 @@
     color: #000;
 }
 
-/* PRIMIUM STYLE 쪽 기능구현 */
-/* 호버시 폰트, 이미지커짐 */
-.lbx:hover .iibx>span img{
+.bg7o:hover .b7g1{
     scale: 1.1;
 }
 
-.lbx:hover .iibx p{
-    transform:scale(1.1)
-}
-
-.fcbx2.on{
-    outline: 1px solid #000;
-}
-
-/* 카테고리 기능구현 */
-.fcbx2.on p{
-    color: #000;
-}
-
-.fcbx3.on{
-    outline: 1px solid #000;
-}
-
-.fcbx3.on p{
-    color: #000;
-}
-
-.por:hover .b7g1{
-    scale: 1.1;
-}
-
-.l2bx:hover .b7g2{
+.bg7o:hover .b7g2{
     scale: 1.1;
 }
 

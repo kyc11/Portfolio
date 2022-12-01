@@ -107,6 +107,11 @@ ul,ol{
     display: none;
 }
 
+.onnn{
+    outline: 1px solid #000;
+    color: #000;
+}
+
 /* 상단영역 */
 
 /* DUDCO로고 */
@@ -485,7 +490,9 @@ ul,ol{
     margin-left: 8px;
 }
 
-
+.cull2 p{
+    transition: .2s;
+}
 
 .cull2 p:nth-child(2){
     font-family: 'Noto Sans KR', sans-serif;
@@ -581,58 +588,60 @@ ul,ol{
     position: relative;
     display: flex;
     max-width: 1920px;
-    min-height: 450px;
+    min-height: 495px;
     margin-top: 187px;
     /* overflow: hidden; */
 }
 
-.mibx::before{
-    content: '';
-    display: block;
-    padding-top: 25.52%;
-}
 
-.mibx div{
+
+/* 상자 */
+.mibx>div{
+    width: 280px;
     position: absolute;
-    transition: all .3s;
+    transition: all .2s;
 }
 
-.mibx div:nth-child(1),
-.mibx div:nth-child(2),
-.mibx div:nth-child(3),
-.mibx div:nth-child(5),
-.mibx div:nth-child(6),
-.mibx div:nth-child(7){
-    top: 0;
+.mibx>div:nth-child(4){
+    width: 500px;
 }
 
-.mibx div:nth-child(1){
+.mibx>div:nth-child(1){
     left: -24.8%;
+    top:0;
 }
 
-.mibx div:nth-child(2){
+.mibx>div:nth-child(2){
     left: -9.5%;
+    top:0;
 }
 
-.mibx div:nth-child(3){
+.mibx>div:nth-child(3){
     left: 5.8%;
+    top:0;
 }
-.mibx div:nth-child(4){
+.mibx>div:nth-child(4){
     top: -32%;
     left: calc(50% - 260px);
 }
 
-.mibx div:nth-child(5){
+.mibx>div:nth-child(5){
     left: 78.8%;
+    top:0;
 }
 
-.mibx div:nth-child(6){
+.mibx>div:nth-child(6){
     left: 94%;
+    top:0;
 }
 
 .mibx div:nth-child(7){
-    left: 109%
+    left: 109%;
+    top:0;
 }
+
+
+
 
 .lbtn2, .rbtn2{
     position: absolute;

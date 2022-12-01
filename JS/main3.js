@@ -19,7 +19,7 @@ function loadFn3(){
         console.log("dodo",dir)
         
         // 5메인 모든 div
-        let abx = mibx.querySelectorAll("div")
+        let abx = document.querySelectorAll(".mibx>div")
         
         if(dir){
             mibx.appendChild(abx[0]);

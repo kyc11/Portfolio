@@ -133,6 +133,7 @@
 
 .b4g1{
     background: url(../rr/img/포폴\ 4메인\ 1.jpg) no-repeat center/cover;
+    transition: .2s;
 }
 
 .b4g1::before{
@@ -144,34 +145,56 @@
 .bg4o{
     width: 100%;
     position: absolute;
-    top: 10%
-    
+    top: 10%;
+    overflow: hidden;
 }
 
 
 
 
-.mibx img{
-    max-width: 280px;
-    transition: .3s;
+
+
+
+.b5g1{
+    background: url(../rr/img/포폴\ 5메인\ 1.jpg) no-repeat center/cover;
 }
 
-.mibx img::before{
+.b5g2{
+    background: url(../rr/img/포폴\ 5메인\ 2.jpg) no-repeat center/cover;
+}
+
+.b5g3{
+    background: url(../rr/img/포폴\ 5메인\ 3.jpg) no-repeat center/cover;
+}
+
+.b5g4{
+    background: url(../rr/img/포폴\ 5메인\ 4.jpg) no-repeat center/cover;
+}
+
+.b5g5{
+    background: url(../rr/img/포폴\ 5메인\ 5.jpg) no-repeat center/cover;
+}
+
+.b5g6{
+    background: url(../rr/img/포폴\ 5메인\ 6.png) no-repeat center/cover;
+}
+
+.b5g7{
+    background: url(../rr/img/포폴\ 5메인\ 7.png) no-repeat center/cover;
+}
+
+
+.b5g1::before,.b5g2::before,.b5g3::before,
+.b5g4::before,.b5g5::before,.b5g6::before,
+.b5g7::before{
     content: '';
     display: block;
-    padding-top: 125.7%;
+    padding-top: 130.72%;
 }
 
-.mibx div:nth-child(4) img{
-    max-width: 500px;
-    transition: .3s;
-}
 
-.mibx div:nth-child(4) img::before{
-    content: '';
-    display: block;
-    padding-top: 125.7%;
-}
+
+
 
 
 
@@ -212,6 +235,7 @@
     left: 0;
     top: 0;
     width: 100%;
+    overflow: hidden;
 }
 
 
