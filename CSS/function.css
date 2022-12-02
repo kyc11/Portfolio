@@ -31,6 +31,12 @@
     transition: height .5s;
 }
 
+/* .smenu::before{
+    content: '';
+    display: block;
+    padding-top: 28.48%;
+} */
+
 /* 서브메뉴 안박스 구성 */
 .sibx{
     display: flex;

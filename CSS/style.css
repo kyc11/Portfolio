@@ -51,7 +51,7 @@ ul,ol{
     flex-wrap: wrap;
     max-width: 1280px;
     margin: 0 auto;
-    min-height: 57px;
+    max-height: 57px;
 }
 
 .ibx2{
@@ -934,14 +934,14 @@ ul,ol{
 /* 회사 소개쪽 */
 .hbx ul{
     display: flex;
-    font-size: 15px;
+    font-size: min(3.5vw,15px);
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 600;
 }
 
 /* 하단박스 회사소개쪽 ul 폰트설정 */
 .infof ul li{
-    line-height: 57px;
+    line-height: min(4vw,57px);
 }
 
 /* 하단박스 회사소개쪽 사이간격설정 */
@@ -973,7 +973,7 @@ ul,ol{
     padding-top: 4.1%;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 700;
-    font-size: 19px;
+    font-size: min(5vw,19px);
 }
 
 /* 하단소개 박스 */
@@ -981,7 +981,7 @@ ul,ol{
 .hib{
     display: flex;
     padding-top: 2.2%;
-    font-size: 14px;
+    font-size: min(3.2vw,15px);
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     
@@ -1166,11 +1166,6 @@ ul,ol{
 /* .scont{
     height: 848px;
 } */
-
-.info{
-    height: 57px;
-
-}
 
 .info2{
     height: 315px;

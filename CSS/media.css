@@ -32,6 +32,8 @@
     }
 }
 
+/* @media screen and () */
+
 /* 1080px이하 미디어쿼리 */
 @media screen and (max-width:1080px){
     .top input {
