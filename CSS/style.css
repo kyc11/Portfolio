@@ -107,8 +107,11 @@ ul,ol{
     display: none;
 }
 
-.onnn{
-    outline: 1px solid #000;
+.fcbx.on2, .fcbx2.on2, .fcbx3.on2, .fcbx4.on2, .fcbx5.on2, .fcbx6.on2{
+    outline: 1px solid #000; 
+}
+
+.fcp.on3, .fcp2.on3, .fcp3.on3, .fcp4.on3, .fcp5.on3, .fcp6.on3{
     color: #000;
 }
 
@@ -689,7 +692,7 @@ ul,ol{
 .fcbx{
     width: 94px;
     height: 40px;
-    outline: 1px solid #000;
+    outline: 1px solid #dbdbdb;
 }
 
 .fcbx2{
@@ -700,17 +703,38 @@ ul,ol{
 }
 
 .fcbx3{
+    width: 102px;
+    height: 40px;
+    outline: 1px solid #dbdbdb;
+    margin-left: 8px;
+}
+
+.fcbx4{
+    width: 102px;
+    height: 40px;
+    outline: 1px solid #dbdbdb;
+    margin-left: 8px;
+}
+
+.fcbx5{
     width: 89px;
     height: 40px;
     outline: 1px solid #dbdbdb;
     margin-left: 8px;
 }
 
-.fcbx, .fcbx2, .fcbx3{
+.fcbx6{
+    width: 89px;
+    height: 40px;
+    outline: 1px solid #dbdbdb;
+    margin-left: 8px;
+}
+
+.fcbx, .fcbx2, .fcbx3, .fcbx4, .fcbx5, .fcbx6{
     border-radius: 30px;
 }
 
-.fcbx p, .fcbx2 p, .fcbx3 p{
+.fcbx p, .fcbx2 p, .fcbx3 p, .fcbx4 p, .fcbx5 p, .fcbx6 p{
     text-align: center;
     line-height: 40px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -718,7 +742,7 @@ ul,ol{
     font-weight: 500;
 }
 
-.fcbx2 p, .fcbx3 p{
+.fcp, .fcp2 , .fcp3 , .fcp4 , .fcp5 , .fcp6{
     color: #767676;
 }
 

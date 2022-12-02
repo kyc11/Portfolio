@@ -53,7 +53,7 @@ function loadFn(){
         
         chgIndic(1);
 
-        clearAuto();
+        // clearAuto();
         
         play.click();
 
@@ -96,13 +96,13 @@ function loadFn(){
 
         chgIndic(0);
 
-        clearAuto();
+        // clearAuto();
 
         play.click();
 
         setTimeout(() => {
             stop.click();
-        },3000);
+        },1000);
     
     }
 

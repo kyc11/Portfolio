@@ -155,14 +155,22 @@
 
 /* HOT KEYWORD 쪽 기능구현 */
 /* 호버시 바깥선 표시 */
+.fcbx:hover,
 .fcbx2:hover,
-.fcbx3:hover{
+.fcbx3:hover,
+.fcbx4:hover,
+.fcbx5:hover,
+.fcbx6:hover{
     outline: 1px solid #000;
 }
 
 /* 호버시 폰트 색깔 표시 */
+.fcbx:hover p,
 .fcbx2:hover p,
-.fcbx3:hover p{
+.fcbx3:hover p,
+.fcbx4:hover p,
+.fcbx5:hover p,
+.fcbx6:hover p{
     color: #000;
 }
 
