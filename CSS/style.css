@@ -598,15 +598,19 @@ ul,ol{
 
 
 
+
+
 /* 상자 */
 .mibx>div{
-    width: 280px;
+    width: 16.8vw;
+    max-width: 280px;
     position: absolute;
     transition: all .2s;
 }
 
 .mibx>div:nth-child(4){
-    width: 500px;
+    width: 36vw;
+    max-width: 500px
 }
 
 .mibx>div:nth-child(1){

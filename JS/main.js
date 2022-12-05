@@ -58,7 +58,7 @@ function loadFn(){
         play.click();
 
         setTimeout(() => {
-            stop.click();
+            stop.stop().click()
         },1000);
 
         
@@ -98,10 +98,10 @@ function loadFn(){
 
         // clearAuto();
 
-        play.click();
-
+        play.click(); 
+        
         setTimeout(() => {
-            stop.click();
+            stop.stop().click();
         },1000);
     
     }
@@ -144,7 +144,8 @@ function loadFn(){
                 // console.log("pf")
                 play.classList.add("on")
                 stop.classList.remove("on")
-                clearAuto();
+                clearAuto()
+                
             }
         }
         
@@ -154,7 +155,8 @@ function loadFn(){
                 // console.log("sf")
                 stop.classList.add("on")
                 play.classList.remove("on")
-                slideAuto();
+                slideAuto()
+                
             }
         }
         

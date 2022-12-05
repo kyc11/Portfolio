@@ -1,8 +1,19 @@
 @charset "utf-8";
 
-/* 1580px이하 미디어쿼리 */
-@media screen and (max-width:1580px){
-    /* 메인 사진 크기 변경 */
+@media screen and (max-width:1669px){
+    .b5g1::before, .b5g2::before, .b5g3::before, .b5g4::before, .b5g5::before, .b5g6::before, .b5g7::before {
+        padding-top: 130.72%;
+    }
+    
+    .mibx>div:nth-child(3){
+        left: 8.1%;
+    }
+
+    
+    .mibx>div:nth-child(5){
+        left: 76.5%;
+    }
+    
 }
 
 
@@ -11,17 +22,55 @@
     .sbxm{
         display: none;
     }
+
+    .mibx>div:nth-child(4){
+        left: 31.7%;
+    }
 }
 
 /* 1300px이하 미디어쿼리 */
-@media screen and (max-width:1300px){
-    
-}
+@media screen and (max-width:1350px) {
+    .lbtn2, .rbtn2 {
+        top: 37vw;
+    }
 
+    .mibx{
+            position: relative;
+            display: flex;
+            max-width: 1920px;
+            min-height: 0px;
+            margin-top: 160px;
+            /* overflow: hidden; */
+    }
+
+    .mibx::before{
+        content: '';
+        display: block;
+        padding-top: 36.2%;
+    }
+
+}
 /* 1280px이하 미디어쿼리 */
 @media screen and (max-width:1280px){
     .top input {
         width: 430px;
+    }
+
+    .cul {
+        left: 8.4%;
+        bottom: 14%;
+    }
+
+    .cul li:nth-child(2){
+        padding-top: 9px;
+    }
+
+    .cul li:last-child{
+        padding-top: 23px;
+    }
+
+    .mibx{
+        margin-top: 150px;
     }
 }
 
@@ -30,6 +79,32 @@
     .top input {
         width: 380px;
     }
+
+    .lbtn2, .rbtn2 {
+        top: 40vw;
+    }
+
+    .infos, .llbx{
+        display: none;
+    }
+
+    .cul {
+        left: 7.4%;
+        bottom: 12.5%;
+    }
+
+    .cul li:nth-child(2){
+        padding-top: 8px;
+    }
+
+    .cul li:last-child{
+        padding-top: 21px;
+    }
+
+    .mibx{
+        margin-top: 140px;
+    }
+    
 }
 
 /* @media screen and () */
@@ -38,5 +113,94 @@
 @media screen and (max-width:1080px){
     .top input {
         width: 330px;
+    }
+
+    .lbtn2, .rbtn2 {
+        top: 41vw;
+    }
+
+    .cul {
+        left: 7.4%;
+        bottom: 11.5%;
+    }
+
+    .cul li:nth-child(2){
+        padding-top: 7px;
+    }
+
+    .cul li:last-child{
+        padding-top: 19px;
+    }
+    
+    .mibx{
+        margin-top: 125px;
+    }
+}
+
+@media screen and (max-width:1000px){
+
+    
+}
+
+@media screen and (max-width:937px){
+    .sme2 li{
+        display: none;
+    }
+
+    .lbtn2, .rbtn2 {
+        top: 44.5vw;
+    }
+
+    .lbtn2 img, .rbtn2 img {
+        width: 28px;
+        height: 56px;
+    }
+
+    .cul li:first-child{
+        font-size: min(4vw,32px);
+    }
+
+    .cul li:nth-child(2){
+        font-size: min(1.5vw,15px);
+    }
+
+    .cul li:last-child{
+        font-size: min(1.5vw,15px);
+    }
+
+    .cul li:last-child img {
+        width: 22px;
+        height: 14px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    .cull p:nth-child(2) {
+        font-size: 20px;
+    }
+    .cull p:nth-child(3) {
+        font-size: 12px;
+    }
+
+    .di2 h2{
+        font-size: 25px;
+    }
+
+    .cull2 p:nth-child(2),
+    .cull2 p:nth-child(3){
+        font-size: 14px;    
+    }
+
+    .cull2 p:nth-child(4){
+        font-size: 16px;
+    }
+
+    .cull2 p:nth-child(4) span{
+        font-size: 13px;
+    }
+
+    .mgz h2{
+        font-size: 42px;
     }
 }
