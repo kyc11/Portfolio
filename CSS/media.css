@@ -83,6 +83,9 @@
     .mgz{
         height: 932px;
     }
+    .smenu{
+        display: none;
+    }
 }
 
 /* 1180px이하 미디어쿼리 */
