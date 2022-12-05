@@ -210,15 +210,18 @@
     }
 
     .cull2 p:nth-child(2),
-    .cull2 p:nth-child(3){
+    .cull2 p:nth-child(3),
+    .libx p{
         font-size: 14px;    
     }
 
-    .cull2 p:nth-child(4){
+    .cull2 p:nth-child(4),
+    .libx p:last-child{
         font-size: 16px;
     }
 
-    .cull2 p:nth-child(4) span{
+    .cull2 p:nth-child(4) span,
+    .libx p:last-child span{
         font-size: 13px;
     }
 
@@ -238,4 +241,9 @@
         width: 24px;
         height: 48px;
     }
+
+    .hot, .pri, .col{
+        font-size: 26px;
+    }
+
 }
