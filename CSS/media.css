@@ -34,7 +34,7 @@
 /* 1300px이하 미디어쿼리 */
 @media screen and (max-width:1350px) {
     .lbtn2, .rbtn2 {
-        top: 37vw;
+        top: 36vw;
     }
 
     .mibx{
@@ -92,7 +92,7 @@
     }
 
     .lbtn2, .rbtn2 {
-        top: 40vw;
+        top: 38vw;
     }
 
     .infos, .llbx{
@@ -130,7 +130,7 @@
     }
 
     .lbtn2, .rbtn2 {
-        top: 41vw;
+        top: 39vw;
     }
 
     .cul {
@@ -166,7 +166,7 @@
     }
 
     .lbtn2, .rbtn2 {
-        top: 44.5vw;
+        top: 44vw;
     }
 
     .lbtn2 img, .rbtn2 img {
@@ -228,5 +228,14 @@
 
     .mgz{
         height: 740px;
+    }
+
+    .lbtn2, .rbtn2{
+        top: 47vw;
+    }
+
+    .lbtn2 img, .rbtn2 img {
+        width: 24px;
+        height: 48px;
     }
 }
