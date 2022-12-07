@@ -164,7 +164,37 @@
 }
 
 @media screen and (max-width:937px){
-    .sme2 li{
+
+    .tham{
+        display: block;
+    }
+
+    .dudco{
+        margin: 0 auto;
+        padding: 8px 0;
+    }
+
+    .srch2{
+        display: block;
+    }
+
+    .srch{
+        display: none;
+    }
+
+    .sbx{
+        display: none;
+    }
+
+    .ibx{
+        min-height: 50px;
+    }
+
+
+
+
+
+    .sss{
         display: none;
     }
 
@@ -250,6 +280,10 @@
         font-size: 26px;
     }
 
+    .lbx{
+        margin: 0 auto;
+    }
+
     .libx p:first-child{
         font-size: 14px;
     }
@@ -260,5 +294,19 @@
 
     .libx p:last-child span{
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .libx p:first-child{
+        font-size: 12px;
+    }
+
+    .libx p:last-child{
+        font-size: 14px;
+    }
+
+    .libx p:last-child span{
+        font-size: 12px;
     }
 }

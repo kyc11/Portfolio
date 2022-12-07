@@ -1,7 +1,7 @@
 // 하단 클릭이벤트 JS - main4.js //
 
 window.addEventListener("DOMContentLoaded",()=>{
-    console.log("ff")
+    // console.log("ff")
 
     const psbt = document.querySelector(".psbt")
 

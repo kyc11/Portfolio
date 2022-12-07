@@ -23,22 +23,22 @@ window.addEventListener("DOMContentLoaded",()=>{
     window.onresize = function(){
         // document.location.reload();
         if(matchMedia("screen and (max-width: 580px)").matches){
-            console.log("580");
+            // console.log("580");
             c2.classList.add("on")
             c4.classList.add("on")
         }
         else if(matchMedia("screen and (max-width: 750px)").matches){
-            console.log("750")
+            // console.log("750")
             lbx.classList.add("on")
         }
         else if(matchMedia("screen and (max-width: 800px)").matches){
-            console.log("800")
+            // console.log("800")
             bg31.classList.add("on")
             c1.classList.add("on");
             c3.classList.add("on");
         }
         else{
-            console.log(">800");
+            // console.log(">800");
             bg31.classList.remove("on")
             c1.classList.remove("on")
             c2.classList.remove("on")
