@@ -86,6 +86,10 @@
     .smenu{
         display: none;
     }
+
+    .sale{
+
+    }
 }
 
 /* 1180px이하 미디어쿼리 */
@@ -155,6 +159,10 @@
 
     .mgz{
         height: 842px;
+    }
+    
+    .sale{
+        font-size: 14px;
     }
 }
 
@@ -227,6 +235,10 @@
     .mgz{
         height: 792px;
     }
+
+    .sale{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:850px) {
@@ -295,6 +307,10 @@
     .libx p:last-child span{
         font-size: 13px;
     }
+
+    .sale{
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 770px){
@@ -309,4 +325,12 @@
     .libx p:last-child span{
         font-size: 12px;
     }
+
+    .sale{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
 }
