@@ -204,6 +204,7 @@
     .cull p:nth-child(2) {
         font-size: 20px;
     }
+
     .cull p:nth-child(3) {
         font-size: 12px;
     }
@@ -249,4 +250,15 @@
         font-size: 26px;
     }
 
+    .libx p:first-child{
+        font-size: 14px;
+    }
+
+    .libx p:last-child{
+        font-size: 16px;
+    }
+
+    .libx p:last-child span{
+        font-size: 13px;
+    }
 }

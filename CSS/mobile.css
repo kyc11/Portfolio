@@ -137,7 +137,7 @@ body *{
 #slide::before{
     content: '';
     display: block;
-    padding-top: 80%;
+    padding-top: 61.16%;
 }
 
 /* 슬라이드 div설정 */
@@ -184,22 +184,27 @@ body *{
 .spbx{
     position: absolute;
 
-    left: 6.4%;
+    left: 0;
     margin-left: 32px;
 
-    top: 36.8%;
+    top: 29.1%;
 }
 
 /* 슬라이드 폰트 박스 폰트설정 */
 .spbx p{
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 48px;
-    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+
+    color: #000;
 }
 
-.spbx p:last-child{
-    font-size: 24px;
-    font-weight: 400;
+.spbx p:nth-child(2){
+    font-size: 1px;
+    font-weight: 500;
+
+    color: #767676;
+
     margin-top: 8px;
 }
 
@@ -208,6 +213,8 @@ body *{
     display: flex;
 
     float: right;
+
+    margin-top: 32px;
 }
 
 /* 비활성화 블록모양 설정 */
@@ -218,8 +225,6 @@ body *{
     border-radius: 10px;
 
     background: #dbdbdb;
-
-    margin-top: 65px;
 }
 
 /* 활성화 블록모양 설정 */

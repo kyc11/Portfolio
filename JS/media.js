@@ -2,30 +2,52 @@
 
 
 window.addEventListener("DOMContentLoaded",()=>{
-    
-    const ifs = document.querySelector(".infos");
-    
-    const lbx = document.querySelector(".llbx");
 
-    const sm2 = document.querySelector(".sme2")
+    const cull = document.querySelector(".cull")
+    
+    const bg31 = document.querySelector(".bg31")
 
-    let sm2li = sm2.querySelectorAll("li")
+    const bg32 = document.querySelector(".bg32")
+
+    const c1 = document.querySelector(".c1")
+
+    const c2 = document.querySelector(".c2")
+
+    const c3 = document.querySelector(".c3")
+
+    const c4 = document.querySelector(".c4")
+
+    const lbx = document.querySelector(".lbx2")
     
-    // window.onresize = function(){
-    //     if (matchMedia("screen and (max-width: 1145px)").matches) {
-    //         /* console.log("1145") */
-    //         ifs.classList.add("on")
-    //         lbx.classList.add("on")
-    //     }
-    //     else {
-    //         ifs.classList.remove("on")
-    //         lbx.classList.remove("on")
-    //     }
-    // }
     
-    /* else if (matchMedia("screen and (max-width: 937px)").matches) {
-        console.log("937")
-    } */
+    window.onresize = function(){
+        // document.location.reload();
+        if(matchMedia("screen and (max-width: 580px)").matches){
+            console.log("580");
+            c2.classList.add("on")
+            c4.classList.add("on")
+        }
+        else if(matchMedia("screen and (max-width: 750px)").matches){
+            console.log("750")
+            lbx.classList.add("on")
+        }
+        else if(matchMedia("screen and (max-width: 800px)").matches){
+            console.log("800")
+            bg31.classList.add("on")
+            c1.classList.add("on");
+            c3.classList.add("on");
+        }
+        else{
+            console.log(">800");
+            bg31.classList.remove("on")
+            c1.classList.remove("on")
+            c2.classList.remove("on")
+            c3.classList.remove("on")
+            c4.classList.remove("on")
+            lbx.classList.remove("on")
+        }
+    };
+    
     
 
 }
