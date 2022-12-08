@@ -1,0 +1,428 @@
+@charset "utf-8";
+
+/* 상단영역 */
+
+/* 인박스 */
+.ibx{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 88px;
+}
+
+/* 미디어쿼리 햄버거 버튼 */
+.tham{
+    display: none;
+}
+
+/* 미디어쿼리 햄버거 버튼 이미지 */
+.tham img{
+    width: 24px;
+    height: 24px;
+
+    margin: 13px 0;
+}
+
+.srch2{
+    display: none;
+}
+
+.srch2 img{
+    width: 24px;
+    height: 24px;
+
+    margin: 13px 0;
+}
+
+/* DUDCO로고 */
+.dudco{
+    display: inline-block;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    
+    padding: 27px 0;
+}
+
+/* 검색 네모박스 위치설정 */
+.srch{
+    position: relative;
+}
+
+/* DUDCO로고 옆 검색박스 */
+.top input{
+    width: 462px;
+    height: 46px;
+    border-radius: 25px;
+    background-color: #f1f1f5;
+    border: none;
+
+    margin: 21px 30px;
+
+}
+
+/* 검색박스 폰트 포지션설정 */
+.top input[type=text]{
+    padding-top: 3px;
+    padding-left:24px;
+    box-sizing: border-box;
+}
+
+/* 검색박스 폰트 속성설정 */
+.top input::placeholder{
+    color: #aeaeae;
+    font-size: 16px;
+}
+
+/* 검색박스 오른쪽검색모양 이미지 속성,포지션설정 */
+.top input[type=image]{
+    position: absolute;
+    top: 15%;
+    right: 4%;
+    width: 20px;
+    height: 20px;
+}
+
+/* 메뉴 전체박스 */
+.sss{
+    outline: 2px solid #dbdbdb;
+}
+
+/* 사이드박스 */
+/* 사이드 로고 전체박스 */
+.sbx{
+    display: flex;
+    margin-left: auto;
+    padding-top: 26px;
+}
+
+/* 좌측아이콘 사이간격설정 */
+.sbx>div+div{
+    padding-left: 28px;
+}
+
+
+
+/* 상단 사이드박스 이미지 사이즈속성 */
+.top .sbx img{
+    width: 38px;
+    height: 38px;
+}
+
+.sbxm{
+    margin-top: 10px;
+    width: 300px;
+    height: 0;
+    background-color: #fff;
+    left: -130px;
+    z-index: 1;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: .2s ease-out;
+}
+
+.sbxm p{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sbxm p:first-child{
+    margin-top: 15px;
+}
+
+
+/* 서브메뉴1 2 3 속성설정*/
+.sme,.sme2,.sme3{
+    display: flex;
+    line-height: 55px;
+}
+
+/* 서브메뉴 1 2 3 폰트설정 */
+.sme,.sme2,.sme3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* 서브탑 햄버거버튼 이미지 사이즈설정 */
+.stop .hbb img{
+    margin-top: 15px;
+    width: 20px;
+    height: 23px;
+    
+}
+
+.stop .hbb a{
+    display: inline-block;
+}
+
+/* 이벤트 서브메뉴 */
+
+/* 카테고리 포지션설정 */
+.sme li:nth-child(2){
+    padding-left: 5px;
+}
+
+/* 두번째 서브메뉴 전체박스 포지션 설정 */
+
+/* 두번째 서브메뉴 li사이 간격 설정 */
+.l1{
+    padding-left: 52px;
+}
+.l2, .l3, .l4, .l5, .l6, .l7, .l8{
+    padding-left: 25px;
+}
+
+/* 로그인쪽 서브메뉴 포지션설정 */
+.sme3{
+    float: right;
+}
+
+/* 로그인쪽 서브메뉴 폰트컬러설정 */
+.sme3 a{
+    color: #767676;
+}
+
+/* 로그인쪽 서브메뉴 사이간격 설정 */
+.sme3 li:first-child{
+    padding-right: 18px;
+}
+
+.sme3 li:nth-child(2){
+    padding-right: 18px;
+}
+
+.sme2 ol li{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.sibx li{
+    font-size: 21px;
+}
+
+.sibx li:first-child{
+    margin-top: 25px;
+}
+
+.sbbb li:nth-child(2){
+    padding-top: 30px;
+}
+
+.ll1 li{
+    font-size: 20px
+}
+
+
+
+
+
+
+
+
+
+
+/* 하단영역 */
+
+/* 하단소개 설정 */
+/* (주)두드코 디자인 */
+.info2 h3{
+    padding-top: 4.1%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: min(5vw,19px);
+}
+
+/* 하단소개 박스 */
+/* 대표이사....사업자등록번호 */
+.hib{
+    display: flex;
+    padding-top: 2.2%;
+    font-size: min(3.2vw,15px);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    
+}
+
+/* 하단소개 박스 사이선 */
+.hib li+li::before{
+    content: 'l';
+    color: #dbdbdb;
+    margin: 0 12px;
+}
+
+.hib li+li{
+    padding-left: 3px;
+    letter-spacing: -0.2px;
+}
+
+/* 하단소개 설정 */
+/* 통신판매업신고.. */
+.hib2{
+    display: flex;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    padding-top: 0.5%;
+}
+
+.hib2 li+li{
+    padding-left: 3px;
+}
+
+.hib2 li+li::before{
+    content: 'l';
+    color: #dbdbdb;
+    margin: 0 15px;
+}
+
+/* 소비자피해보상 */
+.info2 h5{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 3%;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.infos img{
+    margin-top: 22px;
+    margin-left: 8px;
+    width: 13px;
+    height: 11px;
+}
+
+.infos li{
+    line-height: 57px;
+}
+
+.infos ul{
+    float: right;
+}
+
+.infos li:first-child{
+    margin-right: 30px;
+}
+
+.sfoss, .sfoss2{
+    position: relative;
+    z-index: 1;
+    margin-top: -18px;
+    height: 0px;
+    transition: height .2s;
+    overflow: hidden;
+}
+
+.onn{
+    height: 192px;
+}
+
+.onn2{
+    height: 160px;
+}
+
+.sfoss p, .sfoss2 p{
+    line-height: 32px;
+}
+
+
+/* 고객님의 안전거래... */
+.info2 p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    padding-top: 1.7%;
+    color: #000;
+}
+
+/* 우 하단소개 */ 
+.llbx h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.illbx {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    padding-left: 21%;
+    padding-top: 14%;
+}
+
+.illbx {
+    font-size: 12px;
+}
+
+.illbx li:nth-child(2){
+    padding-top: 27px;
+}
+
+.illbx li:nth-child(3){
+    padding-top: 6px;
+}
+
+.illbx li:nth-child(3) img{
+    width: 18px;
+    height: 18px;
+}
+
+.illbx2 li{
+    padding-left: 27%;
+}
+
+
+
+.illbx2 li:first-child{
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+.illbx2 li:nth-child(2){
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.illbx2 img{
+    position: absolute;
+    top: 58%;
+} 
+
+.illbx2{
+    padding-top: 65px;
+    padding-left: 21%;
+}
+
+/* 하단박스 ul 속성설정 */
+/* 회사 소개쪽 */
+.hbx ul{
+    display: flex;
+    font-size: min(3.5vw,15px);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+}
+
+/* 하단박스 회사소개쪽 ul 폰트설정 */
+.infof ul li{
+    line-height: min(4vw,57px);
+}
+
+/* 하단박스 회사소개쪽 사이간격설정 */
+.infof ul li+li{
+    padding-left: 4px;
+}
+
+/* 하단박스 회사소개쪽 사이 줄만들기 */
+.infof ul li+li::before{
+    content: 'l';
+    color: #dbdbdb;
+    margin: 0 14px;
+}
+
+/* 하단박스 판매자서비스쪽 박스 크기설정 */
+#seleml{
+    width: 80px;
+    
+}
