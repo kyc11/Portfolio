@@ -8,76 +8,6 @@ font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-body *{
-    /* outline: 1px solid red; */
-}
-
-ul,ol{
-    list-style: none;
-}
-
-.ibx{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1280px;
-    margin: 0 auto;
-    min-height: 88px;
-}
-
-.mbx{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1580px;
-    margin: 0 auto;
-    min-height: 90px;
-}
-
-.mbx::before{
-    content: '';
-    display: block;
-    padding-top: 53.6%;
-}
-
-.ebx{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1280px;
-    margin: 0 auto;
-    min-height: 50px;
-}
-
-.hbx{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1280px;
-    margin: 0 auto;
-    max-height: 57px;
-}
-
-.ibx2{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1920px;
-    margin: 0 auto;
-    min-height: 88px;
-}
-
-.ibx3{
-    flex-wrap: wrap;
-    max-width: 1280px;
-    margin: 0 auto;
-    min-height: 88px;
-}
-
-.tbx{
-    height: 88px;
-    display: flex;
-}
-
-.tbx2{
-    height: 88px;
-}
-
 .tbx ul{
     display: flex;
     padding-top: 22px;
@@ -87,14 +17,6 @@ ul,ol{
     line-height: 45px;
 }
 
-.por{
-    position: relative;
-}
-
-.poa{
-    position: absolute;
-}
-
 .ovh{
     overflow: hidden;
     width: 100%;
@@ -102,6 +24,20 @@ ul,ol{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.mbx{
+    display: flex;
+    max-width: 1580px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    min-height: 90px;
+}
+
+.mbx::before{
+    content: '';
+    display: block;
+    padding-top: 53.6%;
 }
 
 .on{
@@ -738,10 +674,6 @@ ul,ol{
     margin-bottom: 32px;
 }
 
-.df{
-    display: flex;
-}
-
 .l2bx{
     margin-left: 10px;
 }
@@ -756,47 +688,6 @@ ul,ol{
 
 
 
-
-
-
-
-
-
-
-/* 두번째탑 위쪽 구분선 설정 */
-.ttop{
-    border-bottom: 2px solid #dbdbdb;
-}
-
-.top{
-    /* height: 88px; */
-}
-
-.cont{
-    max-height: 1573px;
-}
-
-/* .cd{
-    height: 100%;
-} */
-
-.cont2::before{
-    content: '';
-    display: block;
-    padding-top: 13.35%;
-}
-
-/* .scont{
-    height: 848px;
-} */
-
-.info2{
-    height: 315px;
-}
-
-.hotl{
-    margin-top: 171px;
-}
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}

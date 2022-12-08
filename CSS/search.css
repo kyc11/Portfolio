@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;700&family=Roboto:wght@300;500;700&display=swap');
+
+/* 
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* 메인박스 */
+.mbx{
+    max-width: 1280px;
+}
+
+/* 메인박스 높이 */
+.scont{
+    height: 2000px;
+}
+
+/* 좌측 박스 */
+.slbx{
+    width: 100%;
+    max-width: 220px;
+    
+}
+
+/* ㅁㅁ검색 폰트 설정 */
+.scont h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+    color: #767676;
+
+    margin-top: 60px;
+}
+
+/* ㅁㅁ검색 아래 긴박스 */
+.lnbx{
+
+    outline: 1px solid #dbdbdb;
+    height: 1000px;
+
+    margin-top: 12px;
+}
+
+/* 카테고리 박스 */
+.ct{
+    border-top: 1px solid #dbdbdb;
+    height: 60px;
+    display: flex;
+}
+
+.ct.on{
+    border-top: 1px solid #191919;
+}
+
+/* 카테고리 폰트 */
+.ct p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+/* 카테고리 화살표 이미지 */
+.ctimg{
+    margin: 20px 20px 20px auto;
+}
+
+/* 카테고리 간격설정 */
+.ctsbx ul{
+    margin-left: 20px;
+}
+
+.ctsbx li+li{
+    margin-top: 10px;
+}
+
+/* 글자 옆 모양만들기 */
+
+/* 세로가 긴박스 */
+.heightbx{
+    display: block;
+    width: 1px;
+    height: 5px;
+    background-color: #dbdbdb;
+}
+
+/* 가로가 긴박스 */
+.widthbx{
+    display: block;
+    width: 6px;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.ojbx{
+    width: 6px;
+    height: 6px;
+    margin-top: 5px;
+}
+
+/* 카테고리 서브박스 설정 */
+.ctsbx{
+    height: 0;
+
+    overflow: hidden;
+}
+
+/* 기능 */
+.ctsbx.on{
+    height: 282px;
+}
+
+/* 카테고리 폰트설정 */
+.ctsbx li{
+    display: flex;    
+}
+
+/* 카테고리 폰트설정 */
+.ctsbx li p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #767676;
+}
+
+/* 두번째 폰트부터 간격설정 */
+.ctsbx li+li p{
+    margin-left: 5px;
+}
+
+/* 카테고리 첫번째 폰트 설정 */
+.ctsbx li:first-child{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* 컬러박스 전체박스 */
+.clubx{
+    height: 0;
+    overflow: hidden;
+}
+
+/* 컬러박스 전체박스 기능 */
+.clubx.on{
+    height: 188px;
+}
+
+/* 컬러박스 */
+.clsbx{
+    margin-left: 20px;
+}
+
+/* 컬러 안박스 */
+.cl1{
+    display: flex;
+}
+
+/* 컬러 안박스 안에 원 만들기 */
+.cl1sbx span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+/* 원 밑 폰트 설정 */
+.cl1sbx p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+
+    text-align: center;
+
+    margin-top: 4px;
+}
+
+/* 원폰트 전체박스 간격설정 */
+.cl1>div+div{
+    margin-left: 20px;
+}
+
+/* 원 색 설정 */
+.bl{
+    background-color: black;
+}
+
+.gr{
+    background-color: gray;
+}
+
+.blu{
+    background-color: blue;
+}
+
+.ye{
+    background-color: yellow;
+}
+
+.pu{
+    background-color: purple;
+}
+
+.wh{
+    background-color: white;
+    outline: 1px solid gray;
+}
+
+.re{
+    background-color: red;
+}
+
+.gre{
+    background-color: #006b80;
+}
+
+.br{
+    background-color: brown;
+}
+
+
+
+/* 브랜드 밑 전체박스 설정 */
+.blubx{
+    height: 0;
+    overflow: hidden;
+}
+
+/* 브랜드 밑 전체박스 기능설정 */
+.blubx.on{
+    height: 262px;
+}
+
+
+/* 브랜드 ul 옆 간격 설정 */
+.blubx ul{
+    margin-left: 20px;
+}
+
+/* 브랜드 li 설정 */
+.blubx li{
+    display: flex;
+}
+
+/* 브랜드 li 위아래 간격 설정 */
+.blubx li+li{
+    margin-top: 16px;
+}
+
+/* 브랜드 li p 설정 */
+.blubx li p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+    margin-left: 8px;
+
+    color: #767676;
+}
+
+/* 브랜드 명 옆 오브젝트 만들기 */
+.blubx li span{
+    display: block;
+
+    width: 22px;
+    height: 22px;
+
+    outline: 1px solid #dbdbdb;
+}
+
+/* 더보기 버튼 만들기 */
+.mrvw{
+    display: block;
+
+    width: 180px;
+    height: 36px;
+
+    background-color: #fff;
+
+    outline: 1px solid #dbdbdb;
+
+    margin-top: 20px;
+}
+
+/* 더보기 버튼 안 폰트설정 */
+.mrvw p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+    color: #000;
+
+    text-align: center;
+    line-height: 36px;
+}
+
+
+
