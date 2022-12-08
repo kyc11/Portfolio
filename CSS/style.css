@@ -920,7 +920,7 @@ ul,ol{
 }
 
 .wc{
-    font-size: 22px;
+    font-size: min(2vw,22px);
 }
 
 .sale{

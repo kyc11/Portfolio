@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded",()=>{
     const lbx = document.querySelector(".lbx2")
     
     
-    window.onresize = function(){
+    /* window.onresize = function(){
         // document.location.reload();
         if(matchMedia("screen and (max-width: 580px)").matches){
             // console.log("580");
@@ -46,7 +46,7 @@ window.addEventListener("DOMContentLoaded",()=>{
             c4.classList.remove("on")
             lbx.classList.remove("on")
         }
-    };
+    }; */
     
     
 

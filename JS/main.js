@@ -53,12 +53,11 @@ function loadFn(){
         
         chgIndic(1);
 
-        // clearAuto();
-        
         play.click();
 
         setTimeout(() => {
-            stop.stop().click()
+            clearAuto();
+            stop.click()
         },1000);
 
         
@@ -96,12 +95,11 @@ function loadFn(){
 
         chgIndic(0);
 
-        // clearAuto();
-
         play.click(); 
         
         setTimeout(() => {
-            stop.stop().click();
+            clearAuto();
+            stop.click();
         },1000);
     
     }
@@ -145,7 +143,6 @@ function loadFn(){
                 play.classList.add("on")
                 stop.classList.remove("on")
                 clearAuto()
-                
             }
         }
         
@@ -156,7 +153,6 @@ function loadFn(){
                 stop.classList.add("on")
                 play.classList.remove("on")
                 slideAuto()
-                
             }
         }
         
