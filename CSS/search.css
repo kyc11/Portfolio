@@ -239,13 +239,14 @@ font-family: 'Roboto', sans-serif;
 
 /* 브랜드 밑 전체박스 기능설정 */
 .blubx.on{
-    height: 262px;
+    height: 263px;
 }
 
 
 /* 브랜드 ul 옆 간격 설정 */
 .blubx ul{
     margin-left: 20px;
+    margin-top: 1px;
 }
 
 /* 브랜드 li 설정 */
