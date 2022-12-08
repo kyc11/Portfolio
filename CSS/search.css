@@ -149,7 +149,12 @@ font-family: 'Roboto', sans-serif;
 
 /* 컬러박스 전체박스 기능 */
 .clubx.on{
-    height: 188px;
+    height: 217px;
+}
+
+/* 컬러박스 위아래 간격설정 */
+.clubx>div+div{
+    margin-top: 16px;
 }
 
 /* 컬러박스 */
