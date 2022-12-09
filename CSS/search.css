@@ -235,7 +235,8 @@ font-family: 'Roboto', sans-serif;
 /* 브랜드 ul 옆 간격 설정 */
 /* 배송 ul 옆 간격 설정 */
 .blubx ul,
-.bsubx ul{
+.bsubx ul,
+.prubx ul{
     margin-left: 20px;
     margin-top: 1px;
 }
@@ -305,6 +306,7 @@ font-family: 'Roboto', sans-serif;
     line-height: 36px;
 }
 
+/* 배송박스 기능설정 */
 .bsubx.on{
     height: 131px;
 }
