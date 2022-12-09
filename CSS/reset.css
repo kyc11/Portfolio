@@ -41,3 +41,14 @@ img{
 ul,ol{
     list-style: none;
 }
+
+input[type="text" i] {
+    padding: 0;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+
+    /* outline: 1px solid #dbdbdb; */
+}

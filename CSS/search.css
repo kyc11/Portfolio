@@ -40,7 +40,7 @@ font-family: 'Roboto', sans-serif;
 .lnbx{
 
     outline: 1px solid #dbdbdb;
-    height: 2000px;
+    height: 1685px;
 
     margin-top: 12px;
 }
@@ -59,7 +59,7 @@ font-family: 'Roboto', sans-serif;
 /* 카테고리 폰트 */
 .ct p{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
 
     margin-left: 20px;
@@ -76,6 +76,11 @@ font-family: 'Roboto', sans-serif;
     margin-left: 20px;
 }
 
+.ctsbx li:nth-child(2){
+    margin-top: 16px;
+}
+
+/* 카테고리 li 위아래 간격 */
 .ctsbx li+li{
     margin-top: 10px;
 }
@@ -105,7 +110,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* 카테고리 컬러 브랜드 배송 서브박스 설정 */
-.ctsbx, .clubx, .blubx, .bsubx{
+.ctsbx, .clubx, .blubx, .bsubx, .prubx, .scubx{
     height: 0;
 
     overflow: hidden;
@@ -113,7 +118,7 @@ font-family: 'Roboto', sans-serif;
 
 /* 기능 */
 .ctsbx.on{
-    height: 282px;
+    height: 270px;
 }
 
 /* 카테고리 폰트설정 */
@@ -124,7 +129,7 @@ font-family: 'Roboto', sans-serif;
 /* 카테고리 폰트설정 */
 .ctsbx li p{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
     color: #767676;
 }
@@ -228,7 +233,7 @@ font-family: 'Roboto', sans-serif;
 
 /* 브랜드 밑 전체박스 기능설정 */
 .blubx.on{
-    height: 263px;
+    height: 262px;
 }
 
 
@@ -236,7 +241,8 @@ font-family: 'Roboto', sans-serif;
 /* 배송 ul 옆 간격 설정 */
 .blubx ul,
 .bsubx ul,
-.prubx ul{
+.prubx ul,
+.scubx ul{
     margin-left: 20px;
     margin-top: 1px;
 }
@@ -245,7 +251,8 @@ font-family: 'Roboto', sans-serif;
 /* 배송 li 설정 */
 .blubx li,
 .bsubx li,
-.prubx li{
+.prubx li,
+.scubx li{
     display: flex;
 }
 
@@ -263,8 +270,10 @@ font-family: 'Roboto', sans-serif;
 .bsubx li p,
 .prubx li p{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
+
+    line-height: 22px   ;
 
     margin-left: 8px;
 
@@ -274,8 +283,7 @@ font-family: 'Roboto', sans-serif;
 /* 브랜드 명 옆 오브젝트 만들기 */
 /* 배송 명 옆 오브젝트 만들기 */
 .blubx li span,
-.bsubx li span,
-.prubx li span{
+.bsubx li span{
     display: block;
 
     width: 22px;
@@ -301,7 +309,7 @@ font-family: 'Roboto', sans-serif;
 /* 더보기 버튼 안 폰트설정 */
 .mrvw p{
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
 
     color: #000;
@@ -312,6 +320,179 @@ font-family: 'Roboto', sans-serif;
 
 /* 배송박스 기능설정 */
 .bsubx.on{
-    height: 131px;
+    height: 130px;
+}
+
+/* 가격대 옆 원 모양 */
+.prubx li span,
+.scubx li span{
+    display: block;
+
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+
+    outline: 1px solid #dbdbdb;
+}
+
+/* 가격대 직접입력 밑 속박스 설정 */
+.prsbx{
+    display: flex;
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* 속박스 안 네모박스 설정 */
+.prsbx input{
+    display: block;
+
+    width: 74px;
+    height: 36px;
+
+    outline: 1px solid #dbdbdb;
+
+    border: none;
+}
+
+/* 네모박스 안 폰트설정 */
+.prsbx input::placeholder{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+    padding-top: 9px;
+    padding-right: 4px;
+    
+    color: #767676;
+
+    float: right;
+    
+}
+
+.prsbx input[type=text] {
+    box-sizing: border-box;
+    padding-left: 6px;
+}
+
+/* 네모박스 안 폰트설정 */
+.prsbx p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+    line-height: 36px;
+    
+    color: #767676;
+
+}
+
+/* 최저 최고 설정 */
+.prsbx span:nth-child(1) p,
+.prsbx span:nth-child(3) p{
+    float: right;
+    margin-right: 8px;
+}
+
+/* 가격대 직접입력 박스 원 설정 */
+.won{
+    margin-left: 4px;
+}
+
+/* 가격대 직접입력 박스 ~ 설정 */
+.wave{
+    margin: 0 4px;
+}
+
+/* 가격대 직접입력 박스 검색 div 설정 */
+.prsr{
+    margin-left: 20px;
+}
+
+/* 가격대 직접입력 박스 검색 모양 */
+.prsr span{
+    display: block;
+
+    width: 180px;
+    height: 36px;
+
+    background-color: #fff;
+
+    outline: 1px solid #dbdbdb;
+
+    margin-top: 12px;
+}
+
+/* 가격대 직접입력 박스 검색 폰트 설정 */
+.prsr p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+    text-align: center;
+    line-height: 36px;
+}
+
+/* 가격대 기능 */
+.prubx.on{
+    height: 272px;
+}
+
+
+/* .scubx span{
+    display: block;
+
+    width: 14px;
+    height: 13px;
+
+    outline: 1px solid #191919;
+} */
+
+/* 별점 밑 전체박스 폰트 설정 */
+.scubx p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+    line-height: 22px;
+    
+    color: #767676;
+
+    margin-left: 6px;
+}
+
+/* 별점 아래 별모양 임시 */
+.star, .star2{
+    display: block;
+
+    width: 14px;
+    height: 13px;
+
+    margin-top: 4.5px;
+
+    outline: 1px solid #dbdbdb;
+}
+
+/* 별점 아래 별모양 임시 */
+.star2{
+    outline: 1px solid #767676;
+}
+
+/* 임시 별 간격설정 */
+.scubx ul li div:nth-child(2){
+    margin-left: 5px;
+}
+
+.scubx ul li div+div{
+    margin-left: 2px;
+}
+
+/* 별점 밑 전체박스 li 위아래 간격 설정 */
+.scubx ul li+li{
+    margin-top: 16px;
+}
+
+.scubx.on{
+    height: 168px;
 }
 
