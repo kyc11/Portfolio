@@ -6,31 +6,34 @@
     <title>연습</title>
 </head>
 <style>
-    body{
-        outline: 3px solid red;
-        height: 5000px;
-    }
+    span{
+        display: flex;
 
-    .bg1{
-        background: url(../rr/img/포폴\ 5메인\ 3.jpg) no-repeat center/cover;
-    }
+        width: auto;
+        height: auto;
 
-    .bg1::before{
-        content: '';
-        display: block;
-        padding-top: 130.71%;
-    }
-
-    .roro>div{
-        max-width: 280px;
+        outline: 1px solid red;
     }
 
 </style>
+
+<script>
+    let num = 0;
+
+    const span = document.getElementsByTagName("span");
+
+    const pp = document.querySelectorAll("p").clientWidth;
+
+    /* const pw = getComputedStyle(pp).width; */
+
+    console.log(pw)
+
+</script>
+
 <body>
-    <div class="roro">
-        <div>
-            <div class="bg1"></div>
-        </div>
-    </div>
+    <span>
+        <p>나는 1</p>
+        <p>나는 2</p>
+    </span>
 </body>
 </html>

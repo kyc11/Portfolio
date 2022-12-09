@@ -86,6 +86,8 @@ font-family: 'Roboto', sans-serif;
 
 /* 카테고리 박스 */
 .rsale{
+    display: flex;
+
     margin-top: 24px;
 }
 
@@ -93,18 +95,18 @@ font-family: 'Roboto', sans-serif;
 .rsoj{
     display: flex;
 
-    width: 98px;
+    width: 88px;
     height: 32px;
 
     border-radius: 100px;
 
-    background-color: #000;
+    background-color: #f8f8f8;
 }
 
 /* x박스 */
 .xbx{
     margin-top: 16px;
-    margin-left: 12px;
+    margin-left: 8px;
 }
 
 /* x 오브젝트 */
@@ -116,7 +118,7 @@ font-family: 'Roboto', sans-serif;
     width: 10px;
     height: 1px;
 
-    background-color: #fff;
+    background-color: #767676;
     rotate: 45deg;
 }
 
@@ -125,6 +127,7 @@ font-family: 'Roboto', sans-serif;
     rotate: 135deg;
 }
 
+/* 리세일가 폰트 */
 .rsoj p{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
@@ -134,6 +137,6 @@ font-family: 'Roboto', sans-serif;
 
     margin-left: 12px;
 
-    color: #fff;
+    color: #767676;
 }
 
