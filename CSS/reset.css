@@ -8,6 +8,10 @@ html,body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,figure,p,blockquote{
     padding: 0;
     white-space: nowrap;
 }
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 /* ul,ol 블릿/숫자없앰 */
 ul,ol{

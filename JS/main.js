@@ -1,33 +1,30 @@
-// 포폴 main.js 
+// 포폴 main.js
 
-window.addEventListener("DOMContentLoaded",loadFn);
+window.addEventListener("DOMContentLoaded", loadFn);
 
-function loadFn(){
-
+function loadFn() {
     // console.log("로딩완료!")
 
     /* 잠금변수 */
     let prot = 0;
 
     /* 왼쪽버튼 */
-    const lbtn = document.querySelector(".lbtn")
+    const lbtn = document.querySelector(".lbtn");
 
     /* 오른쪽버튼 */
-    const rbtn = document.querySelector(".rbtn")
+    const rbtn = document.querySelector(".rbtn");
 
     /* slide */
-    const slide = document.querySelector("#slide")
+    const slide = document.querySelector("#slide");
 
     /* 페이지 숫자 */
-    const ppnum = document.querySelector(".pnum")
+    const ppnum = document.querySelector(".pnum");
 
     /* 재생버튼 */
-    const play = document.querySelector(".play")
-    
+    const play = document.querySelector(".play");
+
     /* 멈춤버튼 */
-    const stop = document.querySelector(".stop2")
-
-
+    const stop = document.querySelector(".stop2");
 
     /* 오른쪽버튼 클릭시 실행 */
     rbtn.onclick = () => {
@@ -35,38 +32,31 @@ function loadFn(){
     };
 
     /* 오른쪽버튼 클릭시 함수 */
-    function rbc(){
+    function rbc() {
         // console.log("오른쪽버튼")
 
-        if(prot)return;
+        if (prot) return;
         prot = 1;
-        setTimeout(() => prot=0,1000);
+        setTimeout(() => (prot = 0), 1000);
 
-        slide.style.left = "-100%"
-        slide.style.transition = "1s ease-in-out"
+        slide.style.left = "-100%";
+        slide.style.transition = "1s ease-in-out";
 
-        setTimeout(()=>{
-            slide.appendChild(slide.querySelectorAll("div")[0])
-            slide.style.left = "0"
-            slide.style.transition = "none"
-        },1000)
-        
+        setTimeout(() => {
+            slide.appendChild(slide.querySelectorAll("div")[0]);
+            slide.style.left = "0";
+            slide.style.transition = "none";
+        }, 1000);
+
         chgIndic(1);
 
         play.click();
 
         setTimeout(() => {
             clearAuto();
-            stop.click()
-        },1000);
-
-        
-
-    };
-
-
-
-
+            stop.click();
+        }, 1000);
+    }
 
     /* 왼쪽버튼 클릭시 실행 */
     lbtn.onclick = () => {
@@ -74,20 +64,19 @@ function loadFn(){
     };
 
     /* 왼쪽버튼 클릭시 함수 */
-    function lbc(){
+    function lbc() {
         // console.log("왼쪽버튼")
 
-        if(prot)return;
+        if (prot) return;
         prot = 1;
-        setTimeout(() => prot=0,1000);
+        setTimeout(() => (prot = 0), 1000);
 
         let cli = slide.querySelectorAll("div");
-        slide.insertBefore(cli[cli.length-1],cli[0]);
+        slide.insertBefore(cli[cli.length - 1], cli[0]);
 
         slide.style.left = "-100%";
         slide.style.transition = "none";
 
-        
         setTimeout(() => {
             slide.style.left = "0";
             slide.style.transition = "1s ease-in-out";
@@ -95,17 +84,13 @@ function loadFn(){
 
         chgIndic(0);
 
-        play.click(); 
-        
+        play.click();
+
         setTimeout(() => {
             clearAuto();
             stop.click();
-        },1000);
-    
+        }, 1000);
     }
-
-
-
 
     /* 순번찍기 페이지표시 */
     const chgIndic = (idx) => {
@@ -118,50 +103,42 @@ function loadFn(){
             .getAttribute("data-seq"); // "data-seq"속성값
         // getAttribute(속성명) -> 속성값 읽어오는 JS내장함수
 
-        if(pnum == 1){
-            ppnum.innerHTML = "1"
+        if (pnum == 1) {
+            ppnum.innerHTML = "1";
+        } else if (pnum == 2) {
+            ppnum.innerHTML = "2";
+        } else if (pnum == 3) {
+            ppnum.innerHTML = "3";
+        } else if (pnum == 4) {
+            ppnum.innerHTML = "4";
+        } else if (pnum == 5) {
+            ppnum.innerHTML = "5";
         }
-        else if(pnum == 2){
-            ppnum.innerHTML = "2"
-        }
-        else if(pnum == 3){
-            ppnum.innerHTML = "3"
-        }
-        else if(pnum == 4){
-            ppnum.innerHTML = "4"
-        }
-        else if(pnum == 5){
-            ppnum.innerHTML = "5"
-        }
-        
+
         // console.log("순번:",pnum);
+    };
+
+    function pf() {
+        play.onclick = () => {
+            // console.log("pf")
+            play.classList.add("on");
+            stop.classList.remove("on");
+            clearAuto();
+        };
     }
 
-        function pf(){
-            play.onclick = () => {
-                // console.log("pf")
-                play.classList.add("on")
-                stop.classList.remove("on")
-                clearAuto()
-            }
-        }
-        
-            
-        function sf(){
-            stop.onclick = () => {
-                // console.log("sf")
-                stop.classList.add("on")
-                play.classList.remove("on")
-                slideAuto()
-            }
-        }
-        
-        pf();
+    function sf() {
+        stop.onclick = () => {
+            // console.log("sf")
+            stop.classList.add("on");
+            play.classList.remove("on");
+            slideAuto();
+        };
+    }
 
-        sf();
-    
-    
-    
+    pf();
+
+    sf();
 
     let autoI;
     // 타임아웃용 변수
@@ -177,6 +154,10 @@ function loadFn(){
     *******************************/
     function slideAuto() {
         autoI = setInterval(() => {
+            if (prot) return;
+            prot = 1;
+            setTimeout(() => (prot = 0), 1000);
+
             // 오른쪽버튼 클릭시 이동코드와 동일함!!! /////////
             slide.style.left = "-100%";
             slide.style.transition = "1s ease-in-out";
@@ -211,5 +192,4 @@ function loadFn(){
         // 2. 타임아웃 지우기(실행쓰나미 방지!)
         clearTimeout(autoT);
     } /////// clearAuto함수 ////////
-
 }
