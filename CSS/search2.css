@@ -8,12 +8,31 @@ font-family: 'Noto Sans KR', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+
+
 /* 우측 큰 박스 설정 */
 .srbx{
+    position: relative;
+
     width: 100%;
     max-width: 1020px;
 
     margin-left: auto;
+}
+
+.srbx::before{
+    content: '';
+    display: block;
+    padding-top: 160%;
+
+}
+
+.bsbx{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
 /* 연관검색어 박스 설정 */
@@ -92,7 +111,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* 리세일가 오브젝트 */
-.rsoj{
+.rsoj, .rsoj2, .rsoj3, .rsoj4, .rsoj5, .rsoj6{
     display: flex;
 
     width: 88px;
@@ -102,6 +121,32 @@ font-family: 'Roboto', sans-serif;
 
     background-color: #f8f8f8;
 }
+
+/* 리세일가 오브젝트 width 설정 */
+.rsoj2{
+    width: 66px;
+}
+
+.rsoj3{
+    width: 110px;
+}
+
+.rsoj4{
+    width: 77px;
+}
+
+.rsoj5{
+    width: 110px;
+}
+
+.rsoj6{
+    width: 131px;
+}
+
+.rsale>span+span{
+    margin-left: 10px;
+}
+
 
 /* x박스 */
 .xbx{
@@ -128,7 +173,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* 리세일가 폰트 */
-.rsoj p{
+.rsoj p, .rsoj2 p, .rsoj3 p, .rsoj4 p, .rsoj5 p, .rsoj6 p{ 
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -140,3 +185,180 @@ font-family: 'Roboto', sans-serif;
     color: #767676;
 }
 
+/* 리세일가 기능설정 오브젝트 */
+.rsoj.on, .rsoj2.on, .rsoj3.on, .rsoj4.on, .rsoj5.on, .rsoj6.on{
+    background-color: #191919;
+}
+
+/* 리세일가 기능설정 폰트설정 */
+.rsoj.on p, .rsoj2.on p, .rsoj3.on p, .rsoj4.on p, .rsoj5.on p, .rsoj6.on p{
+    color: #fff;
+}
+
+/* 리세일가 기능설정 x 오브젝트 */
+.rsoj.on .wo, .rsoj2.on .wo, .rsoj3.on .wo, .rsoj4.on .wo, .rsoj5.on .wo, .rsoj6.on .wo,
+.rsoj.on .ow, .rsoj2.on .ow, .rsoj3.on .ow, .rsoj4.on .ow, .rsoj5.on .ow, .rsoj6.on .ow{
+    background-color: #fff;
+}
+
+/* 카테고리 마지막박스 */
+.clbx{
+    display: flex;
+
+    margin-left: auto;
+}
+
+/* 로테이트 회전아이콘 임시 */
+.rtt{
+    display: block;
+
+    width: 18px;
+    height: 18px;
+
+    outline: 1px solid #767676;
+
+    margin-top: 7px;
+    margin-right: 6px;
+}
+
+/* 카테고리 마지막박스 폰트 */
+.clbx p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+
+    line-height: 32px;
+
+    color: #767676;
+}
+
+
+
+
+/* 검색 메인박스 */
+.scmbx{
+    margin-top: 40px;
+}
+
+/* 검색 메인박스 밑 width박스 */
+.scwbx{
+    display: flex;
+}
+
+.mwbx{
+    width: 100%;
+}
+
+/* 상품 이미지박스 */
+.simbx{
+    /* background: url(../rr/img/250\ 314.jpg) no-repeat center/cover; */
+    max-width: 250px;
+}
+
+/* 상품 이미지박스 비율 */
+.simbx::before{
+    content: '';
+    display: block;
+    padding-top: 125.6%;
+}
+
+/* 상품 전체박스 */
+.swsbx{
+    max-width: 250px;
+}
+
+/* 상품 밑 폰트설정 */
+.swsbx p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+}
+
+/* 첫번째 폰트설정 */
+.swsbx p:nth-child(2){
+    font-weight: 700;
+
+    margin-top: 8px;
+}
+
+/* 두번째 폰트설정 */
+.swsbx p:nth-child(3){
+    font-weight: 400;
+
+    margin-top: 2px;
+
+    color: #505050;
+}
+
+/* 세번째 폰트설정 */
+.swsbx p:nth-child(4){
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+    margin-top: 12px;
+    
+    color: #191919;
+}
+
+/* 세번째 폰트 span 설정 */
+.swsbx p:nth-child(4) span{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-left: 2px;
+    margin-right: 8px;
+
+    color: #505050;
+}
+
+
+
+/* 상품 언더박스 */
+.usbx{
+    display: flex;
+
+    margin-top: 14px;
+}
+
+/* 상품 언더박스 오브젝트 */
+.usbx span{
+    display: block;
+
+    width: 52px;
+    height: 20px;
+
+    background-color: #f1f1f5;
+
+    border-radius: 8px;
+}
+
+/* 상품 언더박스 폰트 설정 */
+.usbx p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+
+    color: #767676;
+
+    text-align: center;
+
+    line-height: 20px;
+}
+
+/* 상품 언더박스 span 옆 간격 설정 */
+.usbx span:last-child{
+    margin-left: 6px;
+}
+
+
+
+/* 상품간 양쪽 간격 설정 */
+.scwbx>div+div{
+    margin-left: 8px;
+}
+
+/* 상품간 위아래 간격 설정 */
+.scmbx+.scmbx{
+    padding-top: 70px;
+}

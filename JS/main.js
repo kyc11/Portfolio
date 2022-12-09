@@ -25,7 +25,7 @@ function loadFn() {
 
     /* 멈춤버튼 */
     const stop = document.querySelector(".stop2");
-
+    
     /* 오른쪽버튼 클릭시 실행 */
     rbtn.onclick = () => {
         rbc();

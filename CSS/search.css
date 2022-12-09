@@ -14,8 +14,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* 메인박스 높이 */
-.scont{
-    height: 2000px;
+.scont::before{
+    content: '';
+    display: block;
+    padding-top: 234.375%;
 }
 
 /* 좌측 박스 */

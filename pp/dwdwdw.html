@@ -15,25 +15,38 @@
         outline: 1px solid red;
     }
 
+    .ww{
+        display: flex;
+
+        width: 200px;
+    }
+
+    .simbx{
+    background: url(../rr/img/250\ 314.jpg) no-repeat center/cover;
+}
+
+/* 상품 이미지박스 비율 */
+.simbx::before{
+    content: '';
+    display: block;
+    padding-top: 125.6%;
+}
+
 </style>
 
-<script>
-    let num = 0;
 
-    const span = document.getElementsByTagName("span");
 
-    const pp = document.querySelectorAll("p").clientWidth;
 
-    /* const pw = getComputedStyle(pp).width; */
 
-    console.log(pw)
-
-</script>
+<script src="../JS/연습.js"></script>
 
 <body>
+    <div class="simbx"></div>
     <span>
-        <p>나는 1</p>
-        <p>나는 2</p>
+        <div class="ww">
+            <p>1</p>
+            <p>2</p>
+        </div>
     </span>
 </body>
 </html>
