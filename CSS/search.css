@@ -244,21 +244,24 @@ font-family: 'Roboto', sans-serif;
 /* 브랜드 li 설정 */
 /* 배송 li 설정 */
 .blubx li,
-.bsubx li{
+.bsubx li,
+.prubx li{
     display: flex;
 }
 
 /* 브랜드 li 위아래 간격 설정 */
 /* 배송 li 위아래 간격 설정 */
 .blubx li+li,
-.bsubx li+li{
+.bsubx li+li,
+.prubx li+li{
     margin-top: 16px;
 }
 
 /* 브랜드 li p 설정 */
 /* 배송 li p 설정 */
 .blubx li p,
-.bsubx li p{
+.bsubx li p,
+.prubx li p{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -271,7 +274,8 @@ font-family: 'Roboto', sans-serif;
 /* 브랜드 명 옆 오브젝트 만들기 */
 /* 배송 명 옆 오브젝트 만들기 */
 .blubx li span,
-.bsubx li span{
+.bsubx li span,
+.prubx li span{
     display: block;
 
     width: 22px;
