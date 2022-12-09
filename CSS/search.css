@@ -40,7 +40,7 @@ font-family: 'Roboto', sans-serif;
 .lnbx{
 
     outline: 1px solid #dbdbdb;
-    height: 1000px;
+    height: 2000px;
 
     margin-top: 12px;
 }
@@ -104,8 +104,8 @@ font-family: 'Roboto', sans-serif;
     margin-top: 5px;
 }
 
-/* 카테고리 서브박스 설정 */
-.ctsbx{
+/* 카테고리 컬러 브랜드 배송 서브박스 설정 */
+.ctsbx, .clubx, .blubx, .bsubx{
     height: 0;
 
     overflow: hidden;
@@ -139,12 +139,6 @@ font-family: 'Roboto', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
     font-weight: 500;
-}
-
-/* 컬러박스 전체박스 */
-.clubx{
-    height: 0;
-    overflow: hidden;
 }
 
 /* 컬러박스 전체박스 기능 */
@@ -231,11 +225,6 @@ font-family: 'Roboto', sans-serif;
 
 
 
-/* 브랜드 밑 전체박스 설정 */
-.blubx{
-    height: 0;
-    overflow: hidden;
-}
 
 /* 브랜드 밑 전체박스 기능설정 */
 .blubx.on{
@@ -244,23 +233,31 @@ font-family: 'Roboto', sans-serif;
 
 
 /* 브랜드 ul 옆 간격 설정 */
-.blubx ul{
+/* 배송 ul 옆 간격 설정 */
+.blubx ul,
+.bsubx ul{
     margin-left: 20px;
     margin-top: 1px;
 }
 
 /* 브랜드 li 설정 */
-.blubx li{
+/* 배송 li 설정 */
+.blubx li,
+.bsubx li{
     display: flex;
 }
 
 /* 브랜드 li 위아래 간격 설정 */
-.blubx li+li{
+/* 배송 li 위아래 간격 설정 */
+.blubx li+li,
+.bsubx li+li{
     margin-top: 16px;
 }
 
 /* 브랜드 li p 설정 */
-.blubx li p{
+/* 배송 li p 설정 */
+.blubx li p,
+.bsubx li p{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -271,7 +268,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* 브랜드 명 옆 오브젝트 만들기 */
-.blubx li span{
+/* 배송 명 옆 오브젝트 만들기 */
+.blubx li span,
+.bsubx li span{
     display: block;
 
     width: 22px;
@@ -306,5 +305,7 @@ font-family: 'Roboto', sans-serif;
     line-height: 36px;
 }
 
-
+.bsubx.on{
+    height: 131px;
+}
 
