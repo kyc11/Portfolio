@@ -1,0 +1,536 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;700&family=Roboto:wght@300;500;700&display=swap');
+
+/* 
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* 샵 메인박스 */
+.smbx{
+    display: flex;
+
+    width: 100%;
+    max-width: 1280px;
+
+    margin: 0 auto;
+
+    padding-top: 48px;
+}
+
+.mbx::before{
+    content: '';
+    display: block;
+    padding-top: 120%;
+}
+
+
+/* 샵 메인 left박스 */
+.smlbx{
+    width: 100%;
+    max-width: 710px;
+}
+
+.simbx{
+    width: 100%;
+}
+
+/* 상품 이미지박스 */
+.simbx::before{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+/* 상품 이미지 밑 이미지s 박스 */
+.simsbx{
+    display: flex;
+}
+
+/* 상품 메인 오른쪽 박스 */
+.smrbx{
+    width: 100%;
+    max-width: 502px;
+
+    margin-left: 70px;
+}
+
+/* 브랜드명 설정 */
+.ssbx>ul li:first-child{
+    display: flex;
+}
+
+/* 브랜드 화살표박스 간격설정 */
+.barrow{
+    margin-left: 8px;
+}
+
+/* 브랜드 화살표 오브젝트 */
+.barrow span{
+    display: block;
+
+    width: 6px;
+    height: 1px;
+
+    background-color: #191919;
+
+    rotate: 45deg;
+
+    margin-top: 8px;
+}
+
+.barrow span:last-child{
+    rotate: 130deg;
+
+    margin-top: 3px;
+}
+
+/* 상품설명 박스 폰트 설정 */
+.ssbx p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ssbx>ul li:nth-child(2) p{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* 두번째 li 위아래 간격설정 */
+.ssbx>ul li:nth-child(2){
+    margin-top: 8px;
+}
+
+/* 아이콘 */
+/* 비활성화 아이콘 */
+.material-symbols-outlined{
+    font-size: 18px !important ;
+    color: #dbdbdb;
+}
+
+/* 활성화 아이콘 */
+.material-symbols-outlined2{
+        font-family: 'Material Symbols Outlined';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -webkit-font-feature-settings: 'liga';
+        -webkit-font-smoothing: antialiased;
+}
+
+/* 상품 설명박스 3번째 li설정 */
+.ssbx>ul li:nth-child(3){
+    display: flex;   
+    
+    margin-top: 16px;
+}
+
+/* 별 간격설정 */
+.ssbx>ul li:nth-child(3) span+span{
+    margin-left: 2px;
+    
+}
+
+/* 스타 퍼포먼스 포인트 설정 */
+.spp{
+    margin-left: 6px;
+}
+
+/* 별점 박스 폰트설정 */
+.spp p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+    color: #191919;
+}
+
+/* 상품 설명박스 4번째 li 설정 */
+.ssbx>ul li:nth-child(4){
+    display: flex;
+
+    margin-top: 24px;
+}
+
+/* 상품 설명박스 4번째 li 폰트 설정 */
+.ssbx>ul li:nth-child(4) p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.ssbx>ul li:nth-child(4) p:last-child{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+    line-height: 38px;
+
+    margin-left: 2px;
+}
+
+/* 구분선 */
+.line{
+    position: relative;
+    z-index: 1;
+
+    margin-top: 40px;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #191919;
+}
+
+/* 배송박스 설정 */
+.bsbx{
+    position: relative;
+
+    width: 100%;
+}
+
+/* 배송박스 높이값 설정 */
+.bsbx::before{
+    content: '';
+    display: block;
+    padding-top: 26.89%;
+}
+
+/* 배송박스 인박스 설정 */
+.bsibx{
+    position: absolute;
+
+    display: flex;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    outline: 1px solid #dbdbdb;
+}
+
+/* 배송박스 인박스 폰트 설정 */
+.bsibx li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    display: flex;
+
+    color: #191919;
+}
+
+/* 배송박스 인박스 첫번째 ul li 폰트설정 */
+.bsibx ul:first-child li{
+    color: #767676;
+}
+
+/* 배송박스 인박스 ul설정 */
+.bsibx ul{
+    margin-left: 24px;
+    margin-top: 23px;
+}
+
+/* 배송박스 인박스 두번째 ul부터 간격설정 */
+.bsibx ul+ul{
+    margin-left: 14px;
+}
+
+/* 배송박스 인박스 두번째 li부터 간격설정 */
+.bsibx li+li{
+    margin-top: 14px;
+}
+
+/* 배송박스 두번째 ul 첫번째 li span 오브젝트 */
+.wnbx{
+    display: block;
+    
+    width: 18px;
+    height: 18px;
+    
+    outline: 1px solid #dbdbdb;
+    
+    border-radius: 100px;
+    
+    margin-top: 1px;
+    
+    margin-left: 6px;
+    
+    text-align: center;
+}
+
+/* 배송박스 두번째 ul 첫번째 li span p 설정 */
+.wnbx p{
+    color: #191919;
+}
+
+/* 배송박스 두번째 ul 두번째 li 폰트 강조 설정 */
+.bsibx ul:nth-child(2) li:nth-child(2) span{
+    color: #5e49f2;
+}
+
+/* 배송박스 인박스 세번째 ul 간격 설정 */
+.bsibx ul:last-child{
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+/* 배송박스 인박스 세번째 ul li 위아래 간격설정 */
+.bsibx ul:last-child li:last-child{
+    float: right;
+    
+    margin-top: 48px;
+}
+
+
+/* 배송박스 인박스 세번째 ul 마지막 li 화살표 오브젝트 */
+.bsibx ul:last-child li:last-child .barrow{
+    margin-left: 6px;
+
+    color: #000;
+}
+
+
+
+
+/* 카드세일 박스 */
+.csale{
+    margin-top: 16px;
+
+    background-color: #f8f8fa;
+
+    outline: 1px solid #dbdbdb;
+}
+
+/* 카드세일박스 카드모양 오브젝트 */
+.coj{
+    position: absolute;
+
+    display: block;
+
+    width: 24px;
+    height: 24px;
+
+    margin-top: 19px;
+
+    outline: 1px solid #dbdbdb;
+    left: 16.5%;
+}
+
+/* 카드세일박스 폰트설정 */
+.csale p{
+    position: relative;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 60px;
+
+    text-align: center;
+
+    margin-left: 28px;
+}
+
+/* 카드세일박스 폰트 강조 설정 */
+.csale p span{
+    color: #5e49f2;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* 보상판매내용 박스 */
+.ctbx{
+    margin-top: 16px;
+}
+
+/* 보상판매 내용 폰트 설정 */
+.ctbx p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* 보상판매 내용 두번째 내용 폰트 설정 */
+.ctbx p:last-child{
+    margin-top: 8px;
+
+    font-weight: 400;
+
+    line-height: 22px;
+
+    color: #767676;
+}
+
+
+/* 선택칸 전체박스 */
+.srcbx{
+    width: 100%;
+    max-width: 500px;
+
+    margin-top: 20px;
+}
+
+/* 선택칸 박스 1 */
+.srcbx1, .srcbx2, .srcbx3{
+    display: flex;
+
+    width: 100%;
+    height: 94px;
+
+    outline: 1px solid #ededed;
+}
+
+/* 1 선택칸 이미지박스 */
+.simgbx{
+    width: 62px;
+    height: 62px;
+
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+/* 1 선택칸 폰트 설정 */
+.srcbx1 p, .srcbx2 p, .srcbx3 p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-top: 28px;
+    margin-left: 16px;
+}
+
+/* 1 선택칸 01 폰트 설정 */
+.srcbx1 p span{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 1 선택칸 아래 화살표 박스 */
+.barr{
+    position: relative;
+
+    width: 24px;
+    height: 24px;
+
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+/* 아래 화살표 오브젝트 */
+.barr span{
+    position: absolute;
+
+    top: 12px;
+
+    display: block;
+
+    width: 10px;
+    height: 1px;
+
+    background-color: #191919;
+    rotate: 45deg;
+}
+
+.barr span:last-child{
+    left: 6px;
+
+    rotate: 135deg;
+}
+
+
+
+/* 2, 3 선택칸 박스 */
+.srcbx2, .srcbx3{
+    height: 46px;
+
+    margin-top: 12px;
+}
+
+/* 2, 3 선택칸 아래화살표 박스 */
+.srcbx2 .barr, .srcbx3 .barr{
+    margin-top: 10px;
+}
+
+/* 2, 3 선택칸 폰트 */
+.srcbx2 p, .srcbx3 p{
+    margin-top: 12px;
+}
+
+
+
+/* 사이드 가이드 박스 */
+.szg{
+    margin-top: 12px;
+}
+
+/* 사이드 가이드 폰트 */
+.szg p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #767676;
+
+    float: right;
+
+    text-decoration: underline;
+}
+
+
+
+/* 상품금액 박스 */
+.sprbx{
+    
+    margin-top: 68px;
+}
+
+/* 상품금액 인박스 */
+.spribx{
+    display: flex;
+
+    float: right;
+}
+
+/* 상품금액 박스 폰트 */
+.sprbx p, .sprbx p:nth-child(2) span{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.sprbx p:first-child{
+    margin-top: 8px;
+
+    margin-right: 16px;
+}
+
+.sprbx p:nth-child(2){
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+
+}
+
+
+
+
+
+
+
+

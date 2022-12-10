@@ -100,15 +100,30 @@
 
 /* 좌측아이콘 사이간격설정 */
 .sbx>div+div{
-    padding-left: 28px;
+    padding-left: 32px;
 }
 
 
 
 /* 상단 사이드박스 이미지 사이즈속성 */
-.top .sbx img{
-    width: 38px;
-    height: 38px;
+.human img{
+    width: 32px;
+    height: 34px;
+}
+
+.rock img{
+    width: 31px;
+    height: 34px;
+}
+
+.heart img{
+    width: 37px;
+    height: 33px;
+}
+
+.dbx img{
+    width: 34px;
+    height: 34px;
 }
 
 .sbxm{
@@ -144,7 +159,7 @@
 .sme,.sme2,.sme3{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /* 서브탑 햄버거버튼 이미지 사이즈설정 */
