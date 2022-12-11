@@ -251,7 +251,7 @@ font-family: 'Roboto', sans-serif;
 
 /* 상품 이미지박스 */
 .simbx{
-    /* background: url(../rr/img/250\ 314.jpg) no-repeat center/cover; */
+    background: #dbdbdb;
     max-width: 250px;
 }
 

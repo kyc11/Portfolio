@@ -2,15 +2,15 @@
 
 /* 서브메뉴 이미지 */
 .sbg{
-    background: url(../rr/img/포폴\ 서브메뉴\ 1.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 서브메뉴\ 350\ 400\ 1.png) no-repeat center/cover;
 }
 
 .sbg2{
-    background: url(../rr/img/포폴\ 메인\ 서브메뉴\ 2.png) no-repeat center/cover
+    background: url(../rr/img/포폴\ 서브메뉴\ 185\ 1.png) no-repeat center/cover
 }
 
 .sbg3{
-    background: url(../rr/img/포폴\ 서브메뉴\ 3.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 서브메뉴\ 185\ 2.png) no-repeat center/cover;
 }
 
 /* 메인 이미지 */
@@ -116,10 +116,18 @@
 
 
 .b3g1{
-    background: url(../rr/img/포폴\ 3메인\ 1.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 420\ 이미지\ 1.png) no-repeat center/cover;
 }
 
-.b3g1::before{
+.b3g2{
+    background: url(../rr/img/포폴\ 420\ 이미지\ 1.png) no-repeat center/cover;
+}
+
+.b3g3{
+    background: url(../rr/img/포폴\ 420\ 이미지\ 1.png) no-repeat center/cover;
+}
+
+.b3g1::before, .b3g2::before, .b3g3::before{
     content: '';
     display: block;
     padding-top: 100%;
@@ -132,7 +140,7 @@
 
 
 .b4g1{
-    background: url(../rr/img/포폴\ 4메인\ 1.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 4메인\ 1.jpg.png) no-repeat center/cover;
     transition: .2s;
 }
 
@@ -199,7 +207,7 @@
 
 
 .b6g1{
-    background: url(../rr/img/포폴\ 6메인\ 1.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 4메인\ 1.jpg.png) no-repeat center/cover;
     max-width: 314px;
 }
 
@@ -219,7 +227,7 @@
 
 
 .b7g1{
-    background: url(../rr/img/포폴\ 7메인\ 1.jpg) no-repeat center/cover;
+    background: url(../rr/img/포폴\ 7메인\ 1.png) no-repeat center/cover;
     max-width: 635px;
     transition: scale .2s;
 }
